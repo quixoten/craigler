@@ -18,6 +18,8 @@ Gem::Specification.new do |s|
      "LICENSE",
      "README.rdoc",
      "Rakefile",
+     "VERSION.yml",
+     "craigler.gemspec",
      "lib/craigler.rb",
      "lib/craigler/constants.rb",
      "lib/craigler/search.rb",
@@ -29,7 +31,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.4}
-  s.summary = %q{TODO}
+  s.summary = %q{Search API for craigslist}
   s.test_files = [
     "test/craigler_search_test.rb",
      "test/craigler_test.rb",
