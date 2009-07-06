@@ -1,7 +1,11 @@
 require 'test_helper'
 
 class CraiglerTest < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  should "respond to search" do
+    assert_respond_to(Craigler, :search)
+  end
+  
+  should "respond to find" do
+    assert_respond_to(Craigler, :find)
   end
 end

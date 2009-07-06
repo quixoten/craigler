@@ -1,6 +1,28 @@
 = craigler
 
-Description goes here.
+Search API for craigslist classifieds.
+
+== SYNOPSIS:
+  
+  Craigler.search(:motorcycles, :in => [:utah, :nevada, :arizona], :for => 'Boulevard M50) do |item|
+    puts item.title
+    puts item.url
+    puts item.time
+  end
+  
+  Craigler.find('Boulevard M50', :in => [:utah, :nevada, :arizona], :only => :motorcycles) do |item|
+    puts item.title
+    puts item.url
+    puts item.time
+  end
+
+== REQUIREMENTS:
+
+* Hpricot
+
+== INSTALL:
+
+* sudo gem install quixoten-craigler
 
 == Copyright
 
