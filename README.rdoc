@@ -1,0 +1,7 @@
+= craigler
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Devin Christensen. See LICENSE for details.
