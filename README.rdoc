@@ -1,6 +1,6 @@
 = craigler
 
-Search API for craigslist classifieds.
+Search API for craigslist
 
 == SYNOPSIS:
   

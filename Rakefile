@@ -5,7 +5,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "craigler"
-    gem.summary = %Q{TODO}
+    gem.summary = %Q{Search API for craigslist}
     gem.email = "quixoten@gmail.com"
     gem.homepage = "http://github.com/quixoten/craigler"
     gem.authors = ["Devin Christensen"]
