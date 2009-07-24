@@ -3,6 +3,7 @@
 Search API for craigslist
 
 == SYNOPSIS:
+  # These both do the same thing, but I couldn't decide which API I liked best.
   
   Craigler.search(:motorcycles, :in => [:utah, :nevada, :arizona], :for => 'Boulevard M50) do |item|
     puts item.title
