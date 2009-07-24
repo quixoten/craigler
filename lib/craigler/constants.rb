@@ -1,4 +1,6 @@
 module Craigler
+  RESULTS_PER_PAGE = 25
+  
   LOCATIONS = {
     :alabama => ['http://auburn.craigslist.org/','http://bham.craigslist.org/','http://columbusga.craigslist.org/','http://dothan.craigslist.org/','http://shoals.craigslist.org/','http://gadsden.craigslist.org/','http://huntsville.craigslist.org/','http://mobile.craigslist.org/','http://montgomery.craigslist.org/','http://tuscaloosa.craigslist.org/'],
     :alaska => ['http://anchorage.craigslist.org/'],

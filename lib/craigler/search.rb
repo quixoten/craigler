@@ -14,15 +14,18 @@ module Craigler
       _parse_options(options)
     end
     
-    def results(refresh = false)
-      return @results unless @results.nil? || refresh
+    def results(options = {})
+      options = { :page_limit => 5, :refresh => false }.merge(options)
+      return @results unless @results.nil? || options[:refresh]
       
-      @results = []
+      @results  = []
+      last_page = options[:page_limit] - 1 # pages start at 0
+      
       _for_each_locations_search_url() do |location, url|
-        (0..19).each do |page|
-          items = _extract_items_from_url(location, "#{url}&s=#{page*25}")
-          @results.push(*items)
-          break unless items.size == 25
+        (0..last_page).each do |page|
+          results = _extract_items_from_url(location, "#{url}&s=#{page*25}")
+          @results.push(*results)
+          break if results.size < RESULTS_PER_PAGE
         end
       end
       
