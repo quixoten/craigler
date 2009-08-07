@@ -39,7 +39,7 @@ end
 
 task :default => :test
 
-require 'rake/rdoctask'
+require 'hanna/rdoctask'
 Rake::RDocTask.new do |rdoc|
   if File.exist?('VERSION.yml')
     config = YAML.load(File.read('VERSION.yml'))
@@ -49,8 +49,8 @@ Rake::RDocTask.new do |rdoc|
   end
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "craigler #{version}"
-  rdoc.rdoc_files.include('README*')
+  rdoc.title = "Craigler #{version}"
+  rdoc.rdoc_files.include('README.rdoc', 'LICENSE')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
 

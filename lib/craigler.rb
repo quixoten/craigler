@@ -5,8 +5,6 @@ require 'craigler/constants'
 require 'craigler/search'
 
 module Craigler
-  VERSION = '0.1.0'
-  
   class CraiglerError < StandardError; end
   class InvalidCategory < CraiglerError; end
   class InvalidSearchTerm < CraiglerError; end
