@@ -18,7 +18,7 @@ module Craigler
     #   <b>Note:</b> A location may, and often does, have more than one searchable
     #   url assciated with it, e.g., {California}[http://geo.craigslist.org/iso/us/ca]. Because
     #   <tt>:page_limit</tt> is applied seperately to each url within the location, searching <tt>:in => :california</tt>
-    #   with a <tt>:page_limit => 4</tt> could potentially make up to 100 page requests.</em>
+    #   with a <tt>:page_limit => 4</tt> could potentially make up to 100 page requests.
     def initialize(search_term, options = {})
       raise InvalidSearchTerm if search_term.nil? || search_term == ''
       
@@ -59,20 +59,20 @@ module Craigler
     end
     
     protected
-    def _validate_locations
+    def _validate_locations # :nodoc:
       @locations.each() do |location|
         raise InvalidLocation.new(":anywhere not expected as part of an array") if location == :anywhere
         raise InvalidLocation.new(":#{location} is not a valid location") unless LOCATIONS.key?(location)
       end
     end
     
-    def _validate_categories
+    def _validate_categories # :nodoc:
       @categories.each() do |category|
         raise InvalidCategory unless CATEGORIES.key?(category)
       end
     end
     
-    def _for_each_locations_search_url()
+    def _for_each_locations_search_url # :nodoc:
       @locations.each do |location|
         LOCATIONS[location].each do |url|
           @categories.each do |category|
@@ -82,7 +82,7 @@ module Craigler
       end
     end
     
-    def _extract_items_from_url(location, url)
+    def _extract_items_from_url(location, url) # :nodoc:
       (Hpricot(open(url))/'item').collect { |item| {
         :url          => item['rdf:about'],
         :title        => (item%'title').inner_text,

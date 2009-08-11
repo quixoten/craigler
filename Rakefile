@@ -50,7 +50,8 @@ Rake::RDocTask.new do |rdoc|
 
   rdoc.rdoc_dir = 'rdoc'
   rdoc.title = "Craigler #{version}"
-  rdoc.rdoc_files.include('README.rdoc', 'LICENSE')
   rdoc.rdoc_files.include('lib/**/*.rb')
+  rdoc.rdoc_files.include('README.rdoc', 'LICENSE')
+  rdoc.main = 'README.rdoc'
 end
 

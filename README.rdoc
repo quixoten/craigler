@@ -19,13 +19,15 @@ or
     puts item.time
   end
 
-You can also create a search object to fetch the results later. When no location or category is given Craigler searches <tt>:all_for_sale_or_wanted</tt> in <tt>:anywhere</tt>
+You can also create a search object to fetch the results later. When no location or category is given Craigler searches <tt>:all_for_sale_or_wanted</tt> <tt>:in => :anywhere</tt>
 
   search = Craigler::Search.new('Yamaha')
-  search.results(:page_limit => 1)
+  search.results()
   
 Note that additional calls to <tt>search.results()</tt> will always return the same result set unless refresh is forced
   search.results(:refresh => true)
+
+See Craigler::Search for a list of all available options
 
 === Supported Categories
 <tt>:all_for_sale_or_wanted</tt>, <tt>:art_and_crafts</tt>, <tt>:auto_parts</tt>, <tt>:baby_and_kid_stuff</tt>, <tt>:barter</tt>, <tt>:bicycles</tt>, <tt>:boats</tt>, <tt>:books</tt>, <tt>:business</tt>, <tt>:cars_and_trucks</tt>, <tt>:clothing</tt>, <tt>:collectibles</tt>, <tt>:community</tt>, <tt>:computers_and_tech</tt>, <tt>:electronics</tt>, <tt>:event</tt>, <tt>:farm_and_garden</tt>, <tt>:free_stuff</tt>, <tt>:furniture</tt>, <tt>:games_and_toys</tt>, <tt>:garage_sales</tt>, <tt>:general</tt>, <tt>:gigs</tt>, <tt>:household</tt>, <tt>:housing</tt>, <tt>:items_wanted</tt>, <tt>:jewelry</tt>, <tt>:jobs</tt>, <tt>:materials</tt>, <tt>:media</tt>, <tt>:motorcycles</tt>, <tt>:musical_instruments</tt>, <tt>:personals</tt>, <tt>:photo_and_video</tt>, <tt>:recreational_vehicles</tt>, <tt>:resume</tt>, <tt>:services_offered</tt>, <tt>:sporting_goods</tt>, <tt>:tickets</tt>, <tt>:tools</tt>
@@ -33,7 +35,7 @@ Note that additional calls to <tt>search.results()</tt> will always return the s
 === Supported Locations
 <tt>:alaska</tt>, <tt>:arizona</tt>, <tt>:arkansas</tt>, <tt>:california</tt>, <tt>:colorado</tt>, <tt>:connecticut</tt>, <tt>:delaware</tt>, <tt>:dc</tt>, <tt>:florida</tt>, <tt>:georgia</tt>, <tt>:hawaii</tt>, <tt>:idaho</tt>, <tt>:illinois</tt>, <tt>:indiana</tt>, <tt>:iowa</tt>, <tt>:kansas</tt>, <tt>:kentucky</tt>, <tt>:louisiana</tt>, <tt>:maine</tt>, <tt>:maryland</tt>, <tt>:mass</tt>, <tt>:michigan</tt>, <tt>:minnesota</tt>, <tt>:mississippi</tt>, <tt>:missouri</tt>, <tt>:montana</tt>, <tt>:nebraska</tt>, <tt>:nevada</tt>, <tt>:n_hampshire</tt>, <tt>:new_jersey</tt>, <tt>:new_mexico</tt>, <tt>:new_york</tt>, <tt>:n_carolina</tt>, <tt>:north_dakota</tt>, <tt>:ohio</tt>, <tt>:oklahoma</tt>, <tt>:oregon</tt>, <tt>:pennsylvania</tt>, <tt>:rhode_island</tt>, <tt>:s_carolina</tt>, <tt>:south_dakota</tt>, <tt>:tennessee</tt>, <tt>:texas</tt>, <tt>:utah</tt>, <tt>:vermont</tt>, <tt>:virginia</tt>, <tt>:washington</tt>, <tt>:west_virginia</tt> <tt>:wisconsin</tt>, <tt>:wyoming</tt>
 
-Or use <tt>:anywhere</tt> to search all supported locations.
+Or use <tt>:in => :anywhere</tt> to search all supported locations.
 
 == REQUIREMENTS:
 
