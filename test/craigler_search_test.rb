@@ -30,6 +30,12 @@ class CraiglerSearchTest < Test::Unit::TestCase
       end
     end
     
+    should "use a default category of :all_for_sale_or_wanted" do
+      search = Craigler::Search.new('Buell', :in => :utah)
+      assert(search.categories == [:all_for_sale_or_wanted],
+              "category was [:#{search.categories.join(", :")}] but should have been [:all_for_sale_or_wanted]")
+    end
+    
     should "require that the location is valid" do
       assert_raises(Craigler::InvalidLocation) do
         Craigler::Search.new('Honda Nighthawk', :in => :invalid)
@@ -45,7 +51,7 @@ class CraiglerSearchTest < Test::Unit::TestCase
   
   context "fetching search results" do
     setup do
-      @search = Craigler::Search.new('Honda', :in => :utah, :only => :motorcycles)
+      @search = Craigler::Search.new('Honda', :in => :utah, :only => :motorcycles, :page_limit => 1)
     end
     
     should "return an array of hashes" do

@@ -6,6 +6,13 @@ module Craigler
     
     attr_reader :search_term, :categories, :locations
     
+    # Creates a wrapper object for a craigslist search
+    #
+    # === Options
+    # [:in]
+    #   Specifies the location(s) to search in. Defaults to <tt>:anywhere</tt>.
+    # [:only]
+    #   Specifies the category or categories to search in. Defaults to <tt>:all_for_sale_or_wanted</tt>
     def initialize(search_term, options = {})
       raise InvalidSearchTerm if search_term.nil? || search_term == ''
       
@@ -14,8 +21,20 @@ module Craigler
       _parse_options(options)
     end
     
+    # Returns the results of the search. If this is the first time
+    # calling #results then they will be fetched over the internet and cached in the search object.
+    #
+    # === Options
+    # [:page_limit]
+    #   Maximum number of pages to fetch results from. Defaults to <tt>4</tt>.
+    #   <b>Note:</b> A location may, and often does, have more than one searchable
+    #   url assciated with it, e.g., {California}[http://geo.craigslist.org/iso/us/ca]. Because
+    #   <tt>:page_limit</tt> is applied seperately to each url within the location, searching <tt>:in => :california</tt>
+    #   with a <tt>:page_limit => 4</tt> could potentially make up to 100 page requests.</em>
+    # [:refresh]
+    #   Set to <tt>true</tt> to force an update across the internet.
     def results(options = {})
-      options = { :page_limit => 5, :refresh => false }.merge(options)
+      options = { :page_limit => 4, :refresh => false }.merge(options)
       return @results unless @results.nil? || options[:refresh]
       
       @results  = []

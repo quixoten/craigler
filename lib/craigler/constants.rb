@@ -1,5 +1,5 @@
 module Craigler
-  RESULTS_PER_PAGE = 25
+  RESULTS_PER_PAGE = 25 # :nodoc:
   
   LOCATIONS = {
     :alabama => ['http://auburn.craigslist.org/','http://bham.craigslist.org/','http://columbusga.craigslist.org/','http://dothan.craigslist.org/','http://shoals.craigslist.org/','http://gadsden.craigslist.org/','http://huntsville.craigslist.org/','http://mobile.craigslist.org/','http://montgomery.craigslist.org/','http://tuscaloosa.craigslist.org/'],
@@ -53,7 +53,7 @@ module Craigler
     :west_virginia => ['http://charlestonwv.craigslist.org/','http://huntington.craigslist.org/','http://martinsburg.craigslist.org/','http://morgantown.craigslist.org/','http://parkersburg.craigslist.org/','http://wv.craigslist.org/','http://wheeling.craigslist.org/'],
     :wisconsin => ['http://appleton.craigslist.org/','http://duluth.craigslist.org/','http://eauclaire.craigslist.org/','http://greenbay.craigslist.org/','http://janesville.craigslist.org/','http://racine.craigslist.org/','http://lacrosse.craigslist.org/','http://madison.craigslist.org/','http://milwaukee.craigslist.org/','http://sheboygan.craigslist.org/','http://wausau.craigslist.org/'],
     :wyoming => ['http://wyoming.craigslist.org/']
-  }
+  } # :nodoc:
 
   CATEGORIES = {
     :community => 'ccc',
@@ -96,5 +96,5 @@ module Craigler
     :personals => 'ppp',
     :resume => 'res',
     :services_offered => 'bbb'
-  }
+  } # :nodoc:
 end

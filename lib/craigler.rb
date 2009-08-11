@@ -11,12 +11,20 @@ module Craigler
   class InvalidLocation < CraiglerError; end
   
   class << self
+    # Interface to Search that may or may not be more readable
     def search(category, options = {})
-      search = Search.new(options[:for], :in => (options[:in] || :anywhere), :only => category)
+      results = Search.new(options[:for], :in => (options[:in] || :anywhere), :only => category).results()
+      results.each {|result| yield(result) } if block_given?
+      results
     end
     
+    # Interface to Search that somewhat mimics ActiveRecord#find
+    #
+    # Supports all the options of Search#new
     def find(search_term, options = {})
-      search = Search.new(search_term, options)
+      results = Search.new(search_term, options).results()
+      results.each {|result| yield(result) } if block_given?
+      results
     end
   end
 end
