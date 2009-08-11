@@ -4,7 +4,7 @@ module Craigler
   class Search
     include ERB::Util
     
-    attr_reader :search_term, :categories, :locations
+    attr_reader :search_term, :categories, :locations, :page_limit
     
     # Creates a wrapper object for a craigslist search
     #
@@ -13,32 +13,39 @@ module Craigler
     #   Specifies the location(s) to search in. Defaults to <tt>:anywhere</tt>.
     # [:only]
     #   Specifies the category or categories to search in. Defaults to <tt>:all_for_sale_or_wanted</tt>
-    def initialize(search_term, options = {})
-      raise InvalidSearchTerm if search_term.nil? || search_term == ''
-      
-      @search_term = search_term
-      @results     = nil
-      _parse_options(options)
-    end
-    
-    # Returns the results of the search. If this is the first time
-    # calling #results then they will be fetched over the internet and cached in the search object.
-    #
-    # === Options
     # [:page_limit]
     #   Maximum number of pages to fetch results from. Defaults to <tt>4</tt>.
     #   <b>Note:</b> A location may, and often does, have more than one searchable
     #   url assciated with it, e.g., {California}[http://geo.craigslist.org/iso/us/ca]. Because
     #   <tt>:page_limit</tt> is applied seperately to each url within the location, searching <tt>:in => :california</tt>
     #   with a <tt>:page_limit => 4</tt> could potentially make up to 100 page requests.</em>
+    def initialize(search_term, options = {})
+      raise InvalidSearchTerm if search_term.nil? || search_term == ''
+      
+      options       = {:in => :anywhere, :only => :all_for_sale_or_wanted, :page_limit => 4}.merge(options)
+      options[:in]  = LOCATIONS.keys if options[:in] == :anywhere
+      @locations    = (options[:in].is_a?(Array) ? options[:in] : [options[:in]]).collect(&:to_sym)
+      @categories   = (options[:only].is_a?(Array) ? options[:only] : [options[:only]]).collect(&:to_sym)
+      @page_limit   = options[:page_limit]
+      @search_term  = search_term
+      @results      = nil
+      
+      _validate_locations()
+      _validate_categories()
+    end
+    
+    # Returns the results of the search. If this is the first time
+    # calling #results then they will be fetched over the internet and cached in the search object.
+    #
+    # === Options
     # [:refresh]
     #   Set to <tt>true</tt> to force an update across the internet.
     def results(options = {})
-      options = { :page_limit => 4, :refresh => false }.merge(options)
+      options = { :refresh => false }.merge(options)
       return @results unless @results.nil? || options[:refresh]
       
       @results  = []
-      last_page = options[:page_limit] - 1 # pages start at 0
+      last_page = @page_limit - 1 # pages start at 0
       
       _for_each_locations_search_url() do |location, url|
         (0..last_page).each do |page|
@@ -51,18 +58,17 @@ module Craigler
       results
     end
     
-    private
-    def _parse_options(options)
-      options     = {:in => LOCATIONS.keys, :only => :all_for_sale_or_wanted}.merge(options)
-      @locations  = options[:in].is_a?(Array) ? options[:in] : [options[:in]]
-      @categories = options[:only].is_a?(Array) ? options[:only] : [options[:only]] 
-      
+    protected
+    def _validate_locations
       @locations.each() do |location|
-        raise InvalidLocation unless location == :anywhere || LOCATIONS.key?(location)
+        raise InvalidLocation.new(":anywhere not expected as part of an array") if location == :anywhere
+        raise InvalidLocation.new(":#{location} is not a valid location") unless LOCATIONS.key?(location)
       end
-      
+    end
+    
+    def _validate_categories
       @categories.each() do |category|
-        raise InvalidCategory unless category == :all_for_sale_or_wanted || CATEGORIES.key?(category)
+        raise InvalidCategory unless CATEGORIES.key?(category)
       end
     end
     

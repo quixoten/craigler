@@ -13,7 +13,8 @@ module Craigler
   class << self
     # Interface to Search that may or may not be more readable
     def search(category, options = {})
-      results = Search.new(options[:for], :in => (options[:in] || :anywhere), :only => category).results()
+      options = { :only => category }.merge(options)
+      results = Search.new(options.delete(:for), options).results()
       results.each {|result| yield(result) } if block_given?
       results
     end

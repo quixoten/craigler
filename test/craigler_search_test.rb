@@ -47,6 +47,12 @@ class CraiglerSearchTest < Test::Unit::TestCase
         Craigler::Search.new('Suzuki Boulevard M50', :in => [:utah, :nevada])
       end
     end
+    
+    should "allow us to limit the number of pages searched" do
+      one_page_count  = Craigler::Search.new('Honda', :in => :utah, :page_limit => 1).results.size
+      two_page_count  = Craigler::Search.new('Honda', :in => :utah, :page_limit => 2).results.size
+      assert(one_page_count < two_page_count, "#{one_page_count} is not less than #{two_page_count}")
+    end
   end
   
   context "fetching search results" do
@@ -59,12 +65,6 @@ class CraiglerSearchTest < Test::Unit::TestCase
       assert(results.is_a?(Array), "Array exptected but was #{results.class}")
       assert(results.size > 0, "No results were returned")
       assert(results.inject(true) {|t,r| t && r.is_a?(Hash)})
-    end
-    
-    should "allow us to limit the number of pages searched" do
-      one_page_count  = @search.results(:page_limit => 1).size
-      two_page_count  = @search.results(:page_limit => 2, :refresh => true).size
-      assert(one_page_count < two_page_count, "#{one_page_count} is not less than #{two_page_count}")
     end
   end
 end
