@@ -9,6 +9,7 @@ begin
     gem.email = "quixoten@gmail.com"
     gem.homepage = "http://github.com/quixoten/craigler"
     gem.authors = ["Devin Christensen"]
+    gem.add_development_dependency "shoulda", ">= 2.10.3"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 
