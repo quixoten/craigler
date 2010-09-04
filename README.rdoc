@@ -33,7 +33,110 @@ See Craigler::Search for a list of all available options
 <tt>:all_for_sale_or_wanted</tt>, <tt>:art_and_crafts</tt>, <tt>:auto_parts</tt>, <tt>:baby_and_kid_stuff</tt>, <tt>:barter</tt>, <tt>:bicycles</tt>, <tt>:boats</tt>, <tt>:books</tt>, <tt>:business</tt>, <tt>:cars_and_trucks</tt>, <tt>:clothing</tt>, <tt>:collectibles</tt>, <tt>:community</tt>, <tt>:computers_and_tech</tt>, <tt>:electronics</tt>, <tt>:event</tt>, <tt>:farm_and_garden</tt>, <tt>:free_stuff</tt>, <tt>:furniture</tt>, <tt>:games_and_toys</tt>, <tt>:garage_sales</tt>, <tt>:general</tt>, <tt>:gigs</tt>, <tt>:household</tt>, <tt>:housing</tt>, <tt>:items_wanted</tt>, <tt>:jewelry</tt>, <tt>:jobs</tt>, <tt>:materials</tt>, <tt>:media</tt>, <tt>:motorcycles</tt>, <tt>:musical_instruments</tt>, <tt>:personals</tt>, <tt>:photo_and_video</tt>, <tt>:recreational_vehicles</tt>, <tt>:resume</tt>, <tt>:services_offered</tt>, <tt>:sporting_goods</tt>, <tt>:tickets</tt>, <tt>:tools</tt>
 
 === Supported Locations
+==== States
 <tt>:alaska</tt>, <tt>:arizona</tt>, <tt>:arkansas</tt>, <tt>:california</tt>, <tt>:colorado</tt>, <tt>:connecticut</tt>, <tt>:delaware</tt>, <tt>:dc</tt>, <tt>:florida</tt>, <tt>:georgia</tt>, <tt>:hawaii</tt>, <tt>:idaho</tt>, <tt>:illinois</tt>, <tt>:indiana</tt>, <tt>:iowa</tt>, <tt>:kansas</tt>, <tt>:kentucky</tt>, <tt>:louisiana</tt>, <tt>:maine</tt>, <tt>:maryland</tt>, <tt>:mass</tt>, <tt>:michigan</tt>, <tt>:minnesota</tt>, <tt>:mississippi</tt>, <tt>:missouri</tt>, <tt>:montana</tt>, <tt>:nebraska</tt>, <tt>:nevada</tt>, <tt>:n_hampshire</tt>, <tt>:new_jersey</tt>, <tt>:new_mexico</tt>, <tt>:new_york</tt>, <tt>:n_carolina</tt>, <tt>:north_dakota</tt>, <tt>:ohio</tt>, <tt>:oklahoma</tt>, <tt>:oregon</tt>, <tt>:pennsylvania</tt>, <tt>:rhode_island</tt>, <tt>:s_carolina</tt>, <tt>:south_dakota</tt>, <tt>:tennessee</tt>, <tt>:texas</tt>, <tt>:utah</tt>, <tt>:vermont</tt>, <tt>:virginia</tt>, <tt>:washington</tt>, <tt>:west_virginia</tt> <tt>:wisconsin</tt>, <tt>:wyoming</tt>
+==== Cities
+===== Alabama
+<tt>:auburn</tt>,<tt>:bham</tt>,<tt>:columbusga</tt>,<tt>:dothan</tt>,<tt>:shoals</tt>,<tt>:gadsden</tt>,<tt>:huntsville</tt>,<tt>:mobile</tt>,<tt>:montgomery</tt>,<tt>:tuscaloosa</tt>,
+===== Alaska 
+<tt>:anchorage</tt>,
+===== Arizona 
+<tt>:flagstaff</tt>,<tt>:mohave</tt>,<tt>:phoenix</tt>,<tt>:prescott</tt>,<tt>:sierravista</tt>,<tt>:tucson</tt>,<tt>:yuma</tt>,
+===== Arkansas 
+<tt>:fayar</tt>,<tt>:fortsmith</tt>,<tt>:jonesboro</tt>,<tt>:littlerock</tt>,<tt>:memphis</tt>,<tt>:texarkana</tt>,
+===== California 
+<tt>:sfbay</tt>,<tt>:bakersfield</tt>,<tt>:chico</tt>,<tt>:fresno</tt>,<tt>:goldcountry</tt>,<tt>:humboldt</tt>,<tt>:imperial</tt>,<tt>:inlandempire</tt>,<tt>:losangeles</tt>,<tt>:mendocino</tt>,<tt>:merced</tt>,<tt>:modesto</tt>,<tt>:monterey</tt>,<tt>:orangecounty</tt>,<tt>:palmsprings</tt>,<tt>:redding</tt>,<tt>:reno</tt>,<tt>:sacramento</tt>,<tt>:sandiego</tt>,<tt>:slo</tt>,<tt>:santabarbara</tt>,<tt>:stockton</tt>,<tt>:ventura</tt>,<tt>:visalia</tt>,<tt>:yubasutter</tt>,
+===== Colorado 
+<tt>:boulder</tt>,<tt>:cosprings</tt>,<tt>:denver</tt>,<tt>:fortcollins</tt>,<tt>:pueblo</tt>,<tt>:rockies</tt>,<tt>:westslope</tt>,
+===== Connecticut 
+<tt>:newlondon</tt>,<tt>:hartford</tt>,<tt>:newhaven</tt>,<tt>:nwct</tt>,
+===== Delaware 
+<tt>:delaware</tt>,
+===== Dc 
+<tt>:washingtondc</tt>,
+===== Florida 
+<tt>:daytona</tt>,<tt>:keys</tt>,<tt>:fortmyers</tt>,<tt>:gainesville</tt>,<tt>:jacksonville</tt>,<tt>:lakeland</tt>,<tt>:ocala</tt>,<tt>:orlando</tt>,<tt>:panamacity</tt>,<tt>:pensacola</tt>,<tt>:sarasota</tt>,<tt>:miami</tt>,<tt>:spacecoast</tt>,<tt>:staugustine</tt>,<tt>:tallahassee</tt>,<tt>:tampa</tt>,<tt>:treasure</tt>,
+===== Georgia 
+<tt>:athensga</tt>,<tt>:atlanta</tt>,<tt>:augusta</tt>,<tt>:brunswick</tt>,<tt>:columbusga</tt>,<tt>:macon</tt>,<tt>:savannah</tt>,<tt>:valdosta</tt>,
+===== Hawaii 
+<tt>:honolulu</tt>,
+===== Idaho 
+<tt>:boise</tt>,<tt>:eastidaho</tt>,<tt>:pullman</tt>,<tt>:spokane</tt>,<tt>:twinfalls</tt>,
+===== Illinois 
+<tt>:bn</tt>,<tt>:carbondale</tt>,<tt>:chambana</tt>,<tt>:chicago</tt>,<tt>:decatur</tt>,<tt>:peoria</tt>,<tt>:quadcities</tt>,<tt>:rockford</tt>,<tt>:springfieldil</tt>,<tt>:stlouis</tt>,
+===== Indiana 
+<tt>:bloomington</tt>,<tt>:evansville</tt>,<tt>:fortwayne</tt>,<tt>:indianapolis</tt>,<tt>:tippecanoe</tt>,<tt>:muncie</tt>,<tt>:southbend</tt>,<tt>:terrahaute</tt>,
+===== Iowa 
+<tt>:ames</tt>,<tt>:cedarrapids</tt>,<tt>:desmoines</tt>,<tt>:dubuque</tt>,<tt>:iowacity</tt>,<tt>:omaha</tt>,<tt>:quadcities</tt>,<tt>:siouxcity</tt>,<tt>:waterloo</tt>,
+===== Kansas 
+<tt>:kansascity</tt>,<tt>:lawrence</tt>,<tt>:ksu</tt>,<tt>:topeka</tt>,<tt>:wichita</tt>,
+===== Kentucky 
+<tt>:bgky</tt>,<tt>:cincinnati</tt>,<tt>:huntington</tt>,<tt>:lexington</tt>,<tt>:louisville</tt>,<tt>:westky</tt>,
+===== Louisiana 
+<tt>:batonrouge</tt>,<tt>:lafayette</tt>,<tt>:lakecharles</tt>,<tt>:monroe</tt>,<tt>:neworleans</tt>,<tt>:shreveport</tt>,
+===== Maine 
+<tt>:maine</tt>,
+===== Maryland 
+<tt>:annapolis</tt>,<tt>:baltimore</tt>,<tt>:easternshore</tt>,<tt>:smd</tt>,<tt>:westmd</tt>,
+===== Mass 
+<tt>:boston</tt>,<tt>:capecod</tt>,<tt>:southcoast</tt>,<tt>:westernmass</tt>,<tt>:worcester</tt>,
+===== Michigan 
+<tt>:annarbor</tt>,<tt>:centralmich</tt>,<tt>:detroit</tt>,<tt>:flint</tt>,<tt>:grandrapids</tt>,<tt>:jxn</tt>,<tt>:kalamazoo</tt>,<tt>:lansing</tt>,<tt>:muskegon</tt>,<tt>:nmi</tt>,<tt>:porthuron</tt>,<tt>:saginaw</tt>,<tt>:southbend</tt>,<tt>:swmi</tt>,<tt>:up</tt>,
+===== Minnesota 
+<tt>:duluth</tt>,<tt>:fargo</tt>,<tt>:mankato</tt>,<tt>:minneapolis</tt>,<tt>:rmn</tt>,<tt>:stcloud</tt>,
+===== Mississippi 
+<tt>:gulfport</tt>,<tt>:hattiesburg</tt>,<tt>:jackson</tt>,<tt>:memphis</tt>,<tt>:northmiss</tt>,
+===== Missouri 
+<tt>:columbiamo</tt>,<tt>:joplin</tt>,<tt>:kansascity</tt>,<tt>:semo</tt>,<tt>:springfield</tt>,<tt>:stlouis</tt>,
+===== Montana 
+<tt>:montana</tt>,
+===== Nebraska 
+<tt>:grandisland</tt>,<tt>:lincoln</tt>,<tt>:omaha</tt>,<tt>:siouxcity</tt>,
+===== Nevada 
+<tt>:lasvegas</tt>,<tt>:reno</tt>,
+===== N hampshire 
+<tt>:nh</tt>,
+===== New jersey 
+<tt>:cnj</tt>,<tt>:jerseyshore</tt>,<tt>:newjersey</tt>,<tt>:southjersey</tt>,
+===== New mexico 
+<tt>:albuquerque</tt>,<tt>:farmington</tt>,<tt>:lascruces</tt>,<tt>:roswell</tt>,<tt>:santafe</tt>,
+===== New york 
+<tt>:albany</tt>,<tt>:binghamton</tt>,<tt>:buffalo</tt>,<tt>:catskills</tt>,<tt>:chautauqua</tt>,<tt>:elmira</tt>,<tt>:hudsonvalley</tt>,<tt>:ithaca</tt>,<tt>:longisland</tt>,<tt>:newyork</tt>,<tt>:plattsburgh</tt>,<tt>:rochester</tt>,<tt>:syracuse</tt>,<tt>:utica</tt>,<tt>:watertown</tt>,
+===== N carolina 
+<tt>:asheville</tt>,<tt>:boone</tt>,<tt>:charlotte</tt>,<tt>:eastnc</tt>,<tt>:fayetteville</tt>,<tt>:greensboro</tt>,<tt>:hickory</tt>,<tt>:outerbanks</tt>,<tt>:raleigh</tt>,<tt>:wilmington</tt>,<tt>:winstonsalem</tt>,
+===== North dakota 
+<tt>:fargo</tt>,<tt>:nd</tt>,
+===== Ohio 
+<tt>:akroncanton</tt>,<tt>:athensohio</tt>,<tt>:cincinnati</tt>,<tt>:cleveland</tt>,<tt>:columbus</tt>,<tt>:dayton</tt>,<tt>:huntington</tt>,<tt>:limaohio</tt>,<tt>:mansfield</tt>,<tt>:parkersburg</tt>,<tt>:sandusky</tt>,<tt>:toledo</tt>,<tt>:wheeling</tt>,<tt>:youngstown</tt>,
+===== Oklahoma 
+<tt>:fortsmith</tt>,<tt>:lawton</tt>,<tt>:oklahomacity</tt>,<tt>:stillwater</tt>,<tt>:tulsa</tt>,
+===== Oregon 
+<tt>:bend</tt>,<tt>:corvallis</tt>,<tt>:eastoregon</tt>,<tt>:eugene</tt>,<tt>:medford</tt>,<tt>:oregoncoast</tt>,<tt>:portland</tt>,<tt>:roseburg</tt>,<tt>:salem</tt>,
+===== Pennsylvania 
+<tt>:altoona</tt>,<tt>:erie</tt>,<tt>:harrisburg</tt>,<tt>:lancaster</tt>,<tt>:allentown</tt>,<tt>:philadelphia</tt>,<tt>:pittsburgh</tt>,<tt>:poconos</tt>,<tt>:reading</tt>,<tt>:scranton</tt>,<tt>:pennstate</tt>,<tt>:williamsport</tt>,<tt>:york</tt>,
+===== Rhode island 
+<tt>:providence</tt>,
+===== S carolina 
+<tt>:charleston</tt>,<tt>:columbia</tt>,<tt>:florencesc</tt>,<tt>:greenville</tt>,<tt>:hiltonhead</tt>,<tt>:myrtlebeach</tt>,
+===== South dakota 
+<tt>:sd</tt>,
+===== Tennessee 
+<tt>:chattanooga</tt>,<tt>:clarksville</tt>,<tt>:jacksontn</tt>,<tt>:knoxville</tt>,<tt>:memphis</tt>,<tt>:nashville</tt>,<tt>:tricities</tt>,
+===== Texas 
+<tt>:abilene</tt>,<tt>:amarillo</tt>,<tt>:austin</tt>,<tt>:beaumont</tt>,<tt>:brownsville</tt>,<tt>:collegestation</tt>,<tt>:corpuschristi</tt>,<tt>:dallas</tt>,<tt>:elpaso</tt>,<tt>:galveston</tt>,<tt>:houston</tt>,<tt>:killeen</tt>,<tt>:laredo</tt>,<tt>:lubbock</tt>,<tt>:mcallen</tt>,<tt>:odessa</tt>,<tt>:sanantonio</tt>,<tt>:sanmarcos</tt>,<tt>:texarkana</tt>,<tt>:easttexas</tt>,<tt>:victoriatx</tt>,<tt>:waco</tt>,<tt>:wichitafalls</tt>,
+===== Utah 
+<tt>:logan</tt>,<tt>:ogden</tt>,<tt>:provo</tt>,<tt>:saltlakecity</tt>,<tt>:stgeorge</tt>,
+===== Vermont 
+<tt>:burlington</tt>,
+===== Virginia 
+<tt>:blacksburg</tt>,<tt>:charlottesville</tt>,<tt>:danville</tt>,<tt>:easternshore</tt>,<tt>:fredericksburg</tt>,<tt>:norfolk</tt>,<tt>:harrisonburg</tt>,<tt>:lynchburg</tt>,<tt>:richmond</tt>,<tt>:roanoke</tt>,
+===== Washington 
+<tt>:bellingham</tt>,<tt>:kpr</tt>,<tt>:olympic</tt>,<tt>:pullman</tt>,<tt>:seattle</tt>,<tt>:skagit</tt>,<tt>:spokane</tt>,<tt>:wenatchee</tt>,<tt>:yakima</tt>,
+===== West virginia 
+<tt>:charlestonwv</tt>,<tt>:huntington</tt>,<tt>:martinsburg</tt>,<tt>:morgantown</tt>,<tt>:parkersburg</tt>,<tt>:wv</tt>,<tt>:wheeling</tt>,
+===== Wisconsin 
+<tt>:appleton</tt>,<tt>:duluth</tt>,<tt>:eauclaire</tt>,<tt>:greenbay</tt>,<tt>:janesville</tt>,<tt>:racine</tt>,<tt>:lacrosse</tt>,<tt>:madison</tt>,<tt>:milwaukee</tt>,<tt>:sheboygan</tt>,<tt>:wausau</tt> 
+
 
 Or use <tt>:in => :anywhere</tt> to search all supported locations.
 
