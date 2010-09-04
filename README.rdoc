@@ -45,7 +45,9 @@ See Craigler::Search for a list of all available options
 ===== Arkansas 
 <tt>:fayar</tt>,<tt>:fortsmith</tt>,<tt>:jonesboro</tt>,<tt>:littlerock</tt>,<tt>:memphis</tt>,<tt>:texarkana</tt>,
 ===== California 
-<tt>:sfbay</tt>,<tt>:bakersfield</tt>,<tt>:chico</tt>,<tt>:fresno</tt>,<tt>:goldcountry</tt>,<tt>:humboldt</tt>,<tt>:imperial</tt>,<tt>:inlandempire</tt>,<tt>:losangeles</tt>,<tt>:mendocino</tt>,<tt>:merced</tt>,<tt>:modesto</tt>,<tt>:monterey</tt>,<tt>:orangecounty</tt>,<tt>:palmsprings</tt>,<tt>:redding</tt>,<tt>:reno</tt>,<tt>:sacramento</tt>,<tt>:sandiego</tt>,<tt>:slo</tt>,<tt>:santabarbara</tt>,<tt>:stockton</tt>,<tt>:ventura</tt>,<tt>:visalia</tt>,<tt>:yubasutter</tt>,
+<tt>:sfbay</tt>,<tt>:bakersfield</tt>,<tt>:chico</tt>,<tt>:fresno</tt>,<tt>:goldcountry</tt>,<tt>:humboldt</tt>,<tt>:imperial</tt>,<tt>:inlandempire</tt>,
+<tt>:losangeles</tt>,<tt>:mendocino</tt>,<tt>:merced</tt>,<tt>:modesto</tt>,<tt>:monterey</tt>,<tt>:orangecounty</tt>,<tt>:palmsprings</tt>,<tt>:redding</tt>,
+<tt>:reno</tt>,<tt>:sacramento</tt>,<tt>:sandiego</tt>,<tt>:slo</tt>,<tt>:santabarbara</tt>,<tt>:stockton</tt>,<tt>:ventura</tt>,<tt>:visalia</tt>,<tt>:yubasutter</tt>,
 ===== Colorado 
 <tt>:boulder</tt>,<tt>:cosprings</tt>,<tt>:denver</tt>,<tt>:fortcollins</tt>,<tt>:pueblo</tt>,<tt>:rockies</tt>,<tt>:westslope</tt>,
 ===== Connecticut 
@@ -55,7 +57,8 @@ See Craigler::Search for a list of all available options
 ===== Dc 
 <tt>:washingtondc</tt>,
 ===== Florida 
-<tt>:daytona</tt>,<tt>:keys</tt>,<tt>:fortmyers</tt>,<tt>:gainesville</tt>,<tt>:jacksonville</tt>,<tt>:lakeland</tt>,<tt>:ocala</tt>,<tt>:orlando</tt>,<tt>:panamacity</tt>,<tt>:pensacola</tt>,<tt>:sarasota</tt>,<tt>:miami</tt>,<tt>:spacecoast</tt>,<tt>:staugustine</tt>,<tt>:tallahassee</tt>,<tt>:tampa</tt>,<tt>:treasure</tt>,
+<tt>:daytona</tt>,<tt>:keys</tt>,<tt>:fortmyers</tt>,<tt>:gainesville</tt>,<tt>:jacksonville</tt>,<tt>:lakeland</tt>,<tt>:ocala</tt>,<tt>:orlando</tt>,
+<tt>:panamacity</tt>,<tt>:pensacola</tt>,<tt>:sarasota</tt>,<tt>:miami</tt>,<tt>:spacecoast</tt>,<tt>:staugustine</tt>,<tt>:tallahassee</tt>,<tt>:tampa</tt>,<tt>:treasure</tt>,
 ===== Georgia 
 <tt>:athensga</tt>,<tt>:atlanta</tt>,<tt>:augusta</tt>,<tt>:brunswick</tt>,<tt>:columbusga</tt>,<tt>:macon</tt>,<tt>:savannah</tt>,<tt>:valdosta</tt>,
 ===== Hawaii 
@@ -81,7 +84,8 @@ See Craigler::Search for a list of all available options
 ===== Mass 
 <tt>:boston</tt>,<tt>:capecod</tt>,<tt>:southcoast</tt>,<tt>:westernmass</tt>,<tt>:worcester</tt>,
 ===== Michigan 
-<tt>:annarbor</tt>,<tt>:centralmich</tt>,<tt>:detroit</tt>,<tt>:flint</tt>,<tt>:grandrapids</tt>,<tt>:jxn</tt>,<tt>:kalamazoo</tt>,<tt>:lansing</tt>,<tt>:muskegon</tt>,<tt>:nmi</tt>,<tt>:porthuron</tt>,<tt>:saginaw</tt>,<tt>:southbend</tt>,<tt>:swmi</tt>,<tt>:up</tt>,
+<tt>:annarbor</tt>,<tt>:centralmich</tt>,<tt>:detroit</tt>,<tt>:flint</tt>,<tt>:grandrapids</tt>,<tt>:jxn</tt>,<tt>:kalamazoo</tt>,<tt>:lansing</tt>,
+<tt>:muskegon</tt>,<tt>:nmi</tt>,<tt>:porthuron</tt>,<tt>:saginaw</tt>,<tt>:southbend</tt>,<tt>:swmi</tt>,<tt>:up</tt>,
 ===== Minnesota 
 <tt>:duluth</tt>,<tt>:fargo</tt>,<tt>:mankato</tt>,<tt>:minneapolis</tt>,<tt>:rmn</tt>,<tt>:stcloud</tt>,
 ===== Mississippi 
@@ -101,19 +105,23 @@ See Craigler::Search for a list of all available options
 ===== New mexico 
 <tt>:albuquerque</tt>,<tt>:farmington</tt>,<tt>:lascruces</tt>,<tt>:roswell</tt>,<tt>:santafe</tt>,
 ===== New york 
-<tt>:albany</tt>,<tt>:binghamton</tt>,<tt>:buffalo</tt>,<tt>:catskills</tt>,<tt>:chautauqua</tt>,<tt>:elmira</tt>,<tt>:hudsonvalley</tt>,<tt>:ithaca</tt>,<tt>:longisland</tt>,<tt>:newyork</tt>,<tt>:plattsburgh</tt>,<tt>:rochester</tt>,<tt>:syracuse</tt>,<tt>:utica</tt>,<tt>:watertown</tt>,
+<tt>:albany</tt>,<tt>:binghamton</tt>,<tt>:buffalo</tt>,<tt>:catskills</tt>,<tt>:chautauqua</tt>,<tt>:elmira</tt>,<tt>:hudsonvalley</tt>,<tt>:ithaca</tt>,
+<tt>:longisland</tt>,<tt>:newyork</tt>,<tt>:plattsburgh</tt>,<tt>:rochester</tt>,<tt>:syracuse</tt>,<tt>:utica</tt>,<tt>:watertown</tt>,
 ===== N carolina 
-<tt>:asheville</tt>,<tt>:boone</tt>,<tt>:charlotte</tt>,<tt>:eastnc</tt>,<tt>:fayetteville</tt>,<tt>:greensboro</tt>,<tt>:hickory</tt>,<tt>:outerbanks</tt>,<tt>:raleigh</tt>,<tt>:wilmington</tt>,<tt>:winstonsalem</tt>,
+<tt>:asheville</tt>,<tt>:boone</tt>,<tt>:charlotte</tt>,<tt>:eastnc</tt>,<tt>:fayetteville</tt>,<tt>:greensboro</tt>,<tt>:hickory</tt>,<tt>:outerbanks</tt>,
+<tt>:raleigh</tt>,<tt>:wilmington</tt>,<tt>:winstonsalem</tt>,
 ===== North dakota 
 <tt>:fargo</tt>,<tt>:nd</tt>,
 ===== Ohio 
-<tt>:akroncanton</tt>,<tt>:athensohio</tt>,<tt>:cincinnati</tt>,<tt>:cleveland</tt>,<tt>:columbus</tt>,<tt>:dayton</tt>,<tt>:huntington</tt>,<tt>:limaohio</tt>,<tt>:mansfield</tt>,<tt>:parkersburg</tt>,<tt>:sandusky</tt>,<tt>:toledo</tt>,<tt>:wheeling</tt>,<tt>:youngstown</tt>,
+<tt>:akroncanton</tt>,<tt>:athensohio</tt>,<tt>:cincinnati</tt>,<tt>:cleveland</tt>,<tt>:columbus</tt>,<tt>:dayton</tt>,<tt>:huntington</tt>,<tt>:limaohio</tt>,
+<tt>:mansfield</tt>,<tt>:parkersburg</tt>,<tt>:sandusky</tt>,<tt>:toledo</tt>,<tt>:wheeling</tt>,<tt>:youngstown</tt>,
 ===== Oklahoma 
 <tt>:fortsmith</tt>,<tt>:lawton</tt>,<tt>:oklahomacity</tt>,<tt>:stillwater</tt>,<tt>:tulsa</tt>,
 ===== Oregon 
 <tt>:bend</tt>,<tt>:corvallis</tt>,<tt>:eastoregon</tt>,<tt>:eugene</tt>,<tt>:medford</tt>,<tt>:oregoncoast</tt>,<tt>:portland</tt>,<tt>:roseburg</tt>,<tt>:salem</tt>,
 ===== Pennsylvania 
-<tt>:altoona</tt>,<tt>:erie</tt>,<tt>:harrisburg</tt>,<tt>:lancaster</tt>,<tt>:allentown</tt>,<tt>:philadelphia</tt>,<tt>:pittsburgh</tt>,<tt>:poconos</tt>,<tt>:reading</tt>,<tt>:scranton</tt>,<tt>:pennstate</tt>,<tt>:williamsport</tt>,<tt>:york</tt>,
+<tt>:altoona</tt>,<tt>:erie</tt>,<tt>:harrisburg</tt>,<tt>:lancaster</tt>,<tt>:allentown</tt>,<tt>:philadelphia</tt>,<tt>:pittsburgh</tt>,<tt>:poconos</tt>,
+<tt>:reading</tt>,<tt>:scranton</tt>,<tt>:pennstate</tt>,<tt>:williamsport</tt>,<tt>:york</tt>,
 ===== Rhode island 
 <tt>:providence</tt>,
 ===== S carolina 
@@ -123,19 +131,23 @@ See Craigler::Search for a list of all available options
 ===== Tennessee 
 <tt>:chattanooga</tt>,<tt>:clarksville</tt>,<tt>:jacksontn</tt>,<tt>:knoxville</tt>,<tt>:memphis</tt>,<tt>:nashville</tt>,<tt>:tricities</tt>,
 ===== Texas 
-<tt>:abilene</tt>,<tt>:amarillo</tt>,<tt>:austin</tt>,<tt>:beaumont</tt>,<tt>:brownsville</tt>,<tt>:collegestation</tt>,<tt>:corpuschristi</tt>,<tt>:dallas</tt>,<tt>:elpaso</tt>,<tt>:galveston</tt>,<tt>:houston</tt>,<tt>:killeen</tt>,<tt>:laredo</tt>,<tt>:lubbock</tt>,<tt>:mcallen</tt>,<tt>:odessa</tt>,<tt>:sanantonio</tt>,<tt>:sanmarcos</tt>,<tt>:texarkana</tt>,<tt>:easttexas</tt>,<tt>:victoriatx</tt>,<tt>:waco</tt>,<tt>:wichitafalls</tt>,
+<tt>:abilene</tt>,<tt>:amarillo</tt>,<tt>:austin</tt>,<tt>:beaumont</tt>,<tt>:brownsville</tt>,<tt>:collegestation</tt>,<tt>:corpuschristi</tt>,<tt>:dallas</tt>,
+<tt>:elpaso</tt>,<tt>:galveston</tt>,<tt>:houston</tt>,<tt>:killeen</tt>,<tt>:laredo</tt>,<tt>:lubbock</tt>,<tt>:mcallen</tt>,<tt>:odessa</tt>,<tt>:sanantonio</tt>,
+<tt>:sanmarcos</tt>,<tt>:texarkana</tt>,<tt>:easttexas</tt>,<tt>:victoriatx</tt>,<tt>:waco</tt>,<tt>:wichitafalls</tt>,
 ===== Utah 
 <tt>:logan</tt>,<tt>:ogden</tt>,<tt>:provo</tt>,<tt>:saltlakecity</tt>,<tt>:stgeorge</tt>,
 ===== Vermont 
 <tt>:burlington</tt>,
 ===== Virginia 
-<tt>:blacksburg</tt>,<tt>:charlottesville</tt>,<tt>:danville</tt>,<tt>:easternshore</tt>,<tt>:fredericksburg</tt>,<tt>:norfolk</tt>,<tt>:harrisonburg</tt>,<tt>:lynchburg</tt>,<tt>:richmond</tt>,<tt>:roanoke</tt>,
+<tt>:blacksburg</tt>,<tt>:charlottesville</tt>,<tt>:danville</tt>,<tt>:easternshore</tt>,<tt>:fredericksburg</tt>,<tt>:norfolk</tt>,<tt>:harrisonburg</tt>,
+<tt>:lynchburg</tt>,<tt>:richmond</tt>,<tt>:roanoke</tt>,
 ===== Washington 
 <tt>:bellingham</tt>,<tt>:kpr</tt>,<tt>:olympic</tt>,<tt>:pullman</tt>,<tt>:seattle</tt>,<tt>:skagit</tt>,<tt>:spokane</tt>,<tt>:wenatchee</tt>,<tt>:yakima</tt>,
 ===== West virginia 
 <tt>:charlestonwv</tt>,<tt>:huntington</tt>,<tt>:martinsburg</tt>,<tt>:morgantown</tt>,<tt>:parkersburg</tt>,<tt>:wv</tt>,<tt>:wheeling</tt>,
 ===== Wisconsin 
-<tt>:appleton</tt>,<tt>:duluth</tt>,<tt>:eauclaire</tt>,<tt>:greenbay</tt>,<tt>:janesville</tt>,<tt>:racine</tt>,<tt>:lacrosse</tt>,<tt>:madison</tt>,<tt>:milwaukee</tt>,<tt>:sheboygan</tt>,<tt>:wausau</tt> 
+<tt>:appleton</tt>,<tt>:duluth</tt>,<tt>:eauclaire</tt>,<tt>:greenbay</tt>,<tt>:janesville</tt>,<tt>:racine</tt>,<tt>:lacrosse</tt>,<tt>:madison</tt>,
+<tt>:milwaukee</tt>,<tt>:sheboygan</tt>,<tt>:wausau</tt> 
 
 
 Or use <tt>:in => :anywhere</tt> to search all supported locations.
