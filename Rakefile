@@ -7,11 +7,13 @@ begin
     gem.name = "craigler"
     gem.summary = %Q{Search API for craigslist}
     gem.email = "quixoten@gmail.com"
-    gem.homepage = "http://github.com/quixoten/craigler"
+    gem.homepage = "http://github.com/threetrieslater/craigler"
     gem.authors = ["Devin Christensen"]
     gem.add_development_dependency "shoulda", ">= 2.10.3"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
+
+  Jeweler::GemcutterTasks.new
 
 rescue LoadError
   puts "Jeweler (or a dependency) not available. Install it with: sudo gem install jeweler"
