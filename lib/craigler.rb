@@ -1,5 +1,5 @@
 require 'open-uri'
-require 'Hpricot'
+require 'hpricot'
 
 require 'craigler/constants'
 require 'craigler/search'
