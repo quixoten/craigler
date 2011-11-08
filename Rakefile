@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'rake'
+require 'yaml'
 
 begin
   require 'jeweler'
@@ -9,7 +10,9 @@ begin
     gem.email = "quixoten@gmail.com"
     gem.homepage = "http://github.com/threetrieslater/craigler"
     gem.authors = ["Devin Christensen"]
+    gem.add_dependency "hpricot", "~> 0.8.4"
     gem.add_development_dependency "shoulda", ">= 2.10.3"
+    gem.add_development_dependency "rdoc", "~> 3.11.0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 
@@ -42,10 +45,10 @@ end
 
 task :default => :test
 
-require 'rake/rdoctask'
+require 'rdoc/task'
 Rake::RDocTask.new do |rdoc|
   if File.exist?('VERSION.yml')
-    config = YAML.load(File.read('VERSION.yml'))
+    config = YAML::load(File.read('VERSION.yml'))
     version = "#{config[:major]}.#{config[:minor]}.#{config[:patch]}"
   else
     version = ""
