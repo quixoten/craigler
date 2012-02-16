@@ -18,7 +18,7 @@ module Craigler
     :hawaii => ['http://honolulu.craigslist.org/'],
     :idaho => ['http://boise.craigslist.org/','http://eastidaho.craigslist.org/','http://pullman.craigslist.org/','http://spokane.craigslist.org/','http://twinfalls.craigslist.org/'],
     :illinois => ['http://bn.craigslist.org/','http://carbondale.craigslist.org/','http://chambana.craigslist.org/','http://chicago.craigslist.org/','http://decatur.craigslist.org/','http://peoria.craigslist.org/','http://quadcities.craigslist.org/','http://rockford.craigslist.org/','http://springfieldil.craigslist.org/','http://stlouis.craigslist.org/'],
-    :indiana => ['http://bloomington.craigslist.org/','http://evansville.craigslist.org/','http://fortwayne.craigslist.org/','http://indianapolis.craigslist.org/','http://tippecanoe.craigslist.org/','http://muncie.craigslist.org/','http://southbend.craigslist.org/','http://terrahaute.craigslist.org/'],
+    :indiana => ['http://bloomington.craigslist.org/','http://evansville.craigslist.org/','http://fortwayne.craigslist.org/','http://indianapolis.craigslist.org/','http://tippecanoe.craigslist.org/','http://muncie.craigslist.org/','http://southbend.craigslist.org/','http://terrehaute.craigslist.org/'],
     :iowa => ['http://ames.craigslist.org/','http://cedarrapids.craigslist.org/','http://desmoines.craigslist.org/','http://dubuque.craigslist.org/','http://iowacity.craigslist.org/','http://omaha.craigslist.org/','http://quadcities.craigslist.org/','http://siouxcity.craigslist.org/','http://waterloo.craigslist.org/'],
     :kansas => ['http://kansascity.craigslist.org/','http://lawrence.craigslist.org/','http://ksu.craigslist.org/','http://topeka.craigslist.org/','http://wichita.craigslist.org/'],
     :kentucky => ['http://bgky.craigslist.org/','http://cincinnati.craigslist.org/','http://huntington.craigslist.org/','http://lexington.craigslist.org/','http://louisville.craigslist.org/','http://westky.craigslist.org/'],
@@ -180,7 +180,8 @@ module Craigler
     :tippecanoe => ['http://tippecanoe.craigslist.org/'],
     :muncie => ['http://muncie.craigslist.org/'],
     :southbend => ['http://southbend.craigslist.org/'],
-    :terrahaute => ['http://terrahaute.craigslist.org/'],
+    :terrahaute => ['http://terrehaute.craigslist.org/'],
+    :terrehaute => ['http://terrehaute.craigslist.org/'],
     # Iowa =
     :ames => ['http://ames.craigslist.org/'],
     :cedarrapids => ['http://cedarrapids.craigslist.org/'],

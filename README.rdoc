@@ -68,7 +68,7 @@ See Craigler::Search for a list of all available options
 ===== Illinois 
 <tt>:bn</tt>,<tt>:carbondale</tt>,<tt>:chambana</tt>,<tt>:chicago</tt>,<tt>:decatur</tt>,<tt>:peoria</tt>,<tt>:quadcities</tt>,<tt>:rockford</tt>,<tt>:springfieldil</tt>,<tt>:stlouis</tt>,
 ===== Indiana 
-<tt>:bloomington</tt>,<tt>:evansville</tt>,<tt>:fortwayne</tt>,<tt>:indianapolis</tt>,<tt>:tippecanoe</tt>,<tt>:muncie</tt>,<tt>:southbend</tt>,<tt>:terrahaute</tt>,
+<tt>:bloomington</tt>,<tt>:evansville</tt>,<tt>:fortwayne</tt>,<tt>:indianapolis</tt>,<tt>:tippecanoe</tt>,<tt>:muncie</tt>,<tt>:southbend</tt>,<tt>:terrehaute</tt>,
 ===== Iowa 
 <tt>:ames</tt>,<tt>:cedarrapids</tt>,<tt>:desmoines</tt>,<tt>:dubuque</tt>,<tt>:iowacity</tt>,<tt>:omaha</tt>,<tt>:quadcities</tt>,<tt>:siouxcity</tt>,<tt>:waterloo</tt>,
 ===== Kansas 
