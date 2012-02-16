@@ -20,6 +20,7 @@ begin
 
 rescue LoadError
   puts "Jeweler (or a dependency) not available. Install it with: sudo gem install jeweler"
+  exit
 end
 
 require 'rake/testtask'
