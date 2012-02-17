@@ -4,4 +4,6 @@ coverage
 rdoc
 pkg
 *.gemspec
+.yardoc/
+doc/
 

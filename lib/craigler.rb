@@ -5,28 +5,26 @@ require 'craigler/constants'
 require 'craigler/search'
 
 module Craigler
-  
-  # :stopdoc:
   class CraiglerError < StandardError; end
   class InvalidCategory < CraiglerError; end
   class InvalidSearchTerm < CraiglerError; end
   class InvalidLocation < CraiglerError; end
-  # :startdoc:
-  
+
   class << self
-    # Interface to Search that may or may not be more readable
+    # Alternate interface to {Search#initialize}
     #
-    # Supports all options of Search#new except <tt>:only</tt>, as it's supplied through the <tt>category</tt> parameter
+    # @param category [Symbol] the category to search
+    # @param options [Hash] options passed to {Search#initialize}.
     def search(category, options = {})
       options = options.merge({ :only => category })
       results = Search.new(options.delete(:for), options).results()
       results.each {|result| yield(result) } if block_given?
       results
     end
-    
-    # Interface to Search that somewhat mimics ActiveRecord#find
+
+    # Wrapper for {Search#initialize}
     #
-    # Supports all the options of Search#new
+    # @param (see Search#initialize)
     def find(search_term, options = {})
       results = Search.new(search_term, options).results()
       results.each {|result| yield(result) } if block_given?

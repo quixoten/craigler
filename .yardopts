@@ -1,0 +1,1 @@
+--no-private -m markdown lib/**/*.rb - LICENSE

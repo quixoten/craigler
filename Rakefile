@@ -12,7 +12,7 @@ begin
     gem.authors = ["Devin Christensen"]
     gem.add_dependency "hpricot", "~> 0.8.4"
     gem.add_development_dependency "shoulda", ">= 2.10.3"
-    gem.add_development_dependency "rdoc", "~> 3.11.0"
+    gem.add_development_dependency "yard", "~> 0.7.5"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 
@@ -43,22 +43,13 @@ rescue LoadError
   end
 end
 
-
-task :default => :test
-
-require 'rdoc/task'
-Rake::RDocTask.new do |rdoc|
-  if File.exist?('VERSION.yml')
-    config = YAML::load(File.read('VERSION.yml'))
-    version = "#{config[:major]}.#{config[:minor]}.#{config[:patch]}"
-  else
-    version = ""
+begin
+  require 'yard'
+  YARD::Rake::YardocTask.new()
+rescue LoadError
+  task :yard do
+    abort "YARD is not avaialable. Install it with: sudo gem install yard"
   end
-
-  rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "Craigler #{version}"
-  rdoc.rdoc_files.include('lib/**/*.rb')
-  rdoc.rdoc_files.include('README.rdoc', 'LICENSE')
-  rdoc.main = 'README.rdoc'
 end
 
+task :default => :test

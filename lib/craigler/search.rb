@@ -8,17 +8,11 @@ module Craigler
     
     # Creates a wrapper object for a craigslist search
     #
-    # === Options
-    # [:in]
-    #   Specifies the location(s) to search in. Defaults to <tt>:anywhere</tt>.
-    # [:only]
-    #   Specifies the category or categories to search in. Defaults to <tt>:all_for_sale_or_wanted</tt>
-    # [:page_limit]
-    #   Maximum number of pages to fetch results from. Defaults to <tt>4</tt>.
-    #   <b>Note:</b> A location may, and often does, have more than one searchable
-    #   url assciated with it, e.g., {California}[http://geo.craigslist.org/iso/us/ca]. Because
-    #   <tt>:page_limit</tt> is applied seperately to each url within the location, searching <tt>:in => :california</tt>
-    #   with a <tt>:page_limit => 4</tt> could potentially make up to 100 page requests.
+    # @param [String] search_term
+    # @option options [Symbol, Array] :in (:anywhere) location(s) to search
+    # @option options [Symbol, Array] :only (:all_for_sale_or_wanted) category or categories to search
+    # @option options [Fixnum] :page_limit (4) maximum number of pages to read per url
+    # @note A location often has more than one url associated with it. For example, [`:california`](http://geo.craigslist.org/iso/us/ca) has 29 associated urls as of this writing. In this case, up to 116 pages could potentially be searched (`:page_limit * num_urls = 4 * 29 = 116`).
     def initialize(search_term, options = {})
       raise InvalidSearchTerm if search_term.nil? || search_term == ''
       
@@ -37,9 +31,7 @@ module Craigler
     # Returns the results of the search. If this is the first time
     # calling #results then they will be fetched over the internet and cached in the search object.
     #
-    # === Options
-    # [:refresh]
-    #   Set to <tt>true</tt> to force an update across the internet.
+    # @option options [Boolean] :refresh (false) force the results to be updated before they are returned
     def results(options = {})
       options = { :refresh => false }.merge(options)
       return @results unless @results.nil? || options[:refresh]
