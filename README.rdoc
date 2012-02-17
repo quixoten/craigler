@@ -158,7 +158,7 @@ Or use <tt>:in => :anywhere</tt> to search all supported locations.
 
 == INSTALL:
 
-* sudo gem install quixoten-craigler
+* sudo gem install craigler
 
 == Copyright
 
