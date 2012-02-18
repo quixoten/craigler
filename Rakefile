@@ -13,14 +13,12 @@ begin
     gem.add_dependency "hpricot", "~> 0.8"
     gem.add_development_dependency "shoulda", "~> 2.10"
     gem.add_development_dependency "yard", "~> 0.7"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 
   Jeweler::GemcutterTasks.new
 
 rescue LoadError
-  puts "Jeweler (or a dependency) not available. Install it with: sudo gem install jeweler"
-  exit
+  abort "Jeweler (or a dependency) not available. Install it with: sudo gem install jeweler"
 end
 
 require 'rake/testtask'
