@@ -1,6 +1,6 @@
 # Craigler
 
-Search API for craigslist
+Search API for [craigslist](http://www.craigslist.org/about/sites)
 
 ## SYNOPSIS
 I couldn't decide which API I liked best, so you have two choices.

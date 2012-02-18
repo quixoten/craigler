@@ -51,20 +51,20 @@ module Craigler
     end
     
     protected
-    def _validate_locations # :nodoc:
+    def _validate_locations
       @locations.each() do |location|
         raise InvalidLocation.new(":anywhere not expected as part of an array") if location == :anywhere
         raise InvalidLocation.new(":#{location} is not a valid location") unless LOCATIONS.key?(location)
       end
     end
     
-    def _validate_categories # :nodoc:
+    def _validate_categories
       @categories.each() do |category|
         raise InvalidCategory unless CATEGORIES.key?(category)
       end
     end
     
-    def _for_each_locations_search_url # :nodoc:
+    def _for_each_locations_search_url
       @locations.each do |location|
         LOCATIONS[location].each do |url|
           @categories.each do |category|
@@ -74,7 +74,7 @@ module Craigler
       end
     end
     
-    def _extract_items_from_url(location, url) # :nodoc:
+    def _extract_items_from_url(location, url)
       (Hpricot(open(url))/'item').collect { |item| {
         :url          => item['rdf:about'],
         :title        => (item%'title').inner_text,
