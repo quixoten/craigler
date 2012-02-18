@@ -50,4 +50,54 @@ rescue LoadError
   end
 end
 
+begin
+  desc "Create a YAML map of craigslist URLs"
+  require 'hpricot'
+  require 'open-uri'
+  task :map do
+    map = {}
+    continents = map[:continents] = {}
+    urls = map[:urls] = {}
+
+    doc = Hpricot(open('http://www.craigslist.org/about/sites'))
+    (doc/'div.colmask').each do |elem|
+      key = (elem%'h1 a')['name'].strip.to_sym
+      continent = continents[key] = {}
+      continent[:name] = (elem%'h1').inner_text.strip
+      states = continent[:states] = {}
+      state = nil
+
+      (elem/'.state_delimiter').each do |elem|
+        state_key = elem.inner_text
+        if state_key == ""
+          state_key = (elem.next_sibling%'a')['href']
+          state_key.sub!(%r[http://([^.]+).*], '\1')
+        end
+
+        state_key.strip!
+        state_key.downcase!
+        state_key.gsub!(/\s/,'_')
+        state_key.gsub!(/[.,]/,'')
+        state = states[state_key.to_sym] = []
+
+        (elem.next_sibling/'a').each do |elem|
+          href = elem['href']
+          url_key = URI(href).host.split('.').first.to_sym
+          url = urls[url_key] = href
+          state << url_key
+        end
+      end
+    end
+
+    open('map.yaml', 'w') do |f|
+      YAML::dump(map, f)
+    end
+  end
+rescue LoadError
+  task :map do
+    abort "Hpricot is not available. Install it with: sudo gem install hpricot"
+  end
+end
+
+task :build => :map
 task :default => :test

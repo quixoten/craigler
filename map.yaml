@@ -1,0 +1,1585 @@
+--- 
+:urls: 
+  :hiroshima: http://hiroshima.craigslist.jp
+  :smd: http://smd.craigslist.org
+  :santamaria: http://santamaria.craigslist.org
+  :swv: http://swv.craigslist.org
+  :dayton: http://dayton.craigslist.org
+  :dubai: http://dubai.craigslist.org
+  :comoxvalley: http://comoxvalley.craigslist.ca
+  :duluth: http://duluth.craigslist.org
+  :jacksonville: http://jacksonville.craigslist.org
+  :lancaster: http://lancaster.craigslist.org
+  :curitiba: http://curitiba.craigslist.org
+  :birmingham: http://birmingham.craigslist.co.uk
+  :kingston: http://kingston.craigslist.ca
+  :missoula: http://missoula.craigslist.org
+  :jacksontn: http://jacksontn.craigslist.org
+  :oaxaca: http://oaxaca.craigslist.com.mx
+  :dalian: http://dalian.craigslist.com.cn
+  :bulgaria: http://bulgaria.craigslist.org
+  :chautauqua: http://chautauqua.craigslist.org
+  :cedarrapids: http://cedarrapids.craigslist.org
+  :anchorage: http://anchorage.craigslist.org
+  :victoriatx: http://victoriatx.craigslist.org
+  :johannesburg: http://johannesburg.craigslist.co.za
+  :frankfurt: http://frankfurt.craigslist.de
+  :bismarck: http://bismarck.craigslist.org
+  :lafayette: http://lafayette.craigslist.org
+  :merced: http://merced.craigslist.org
+  :skagit: http://skagit.craigslist.org
+  :davaocity: http://davaocity.craigslist.com.ph
+  :amsterdam: http://amsterdam.craigslist.org
+  :klamath: http://klamath.craigslist.org
+  :monroemi: http://monroemi.craigslist.org
+  :newhaven: http://newhaven.craigslist.org
+  :dunedin: http://dunedin.craigslist.co.nz
+  :bern: http://bern.craigslist.ch
+  :yellowknife: http://yellowknife.craigslist.ca
+  :myrtlebeach: http://myrtlebeach.craigslist.org
+  :semo: http://semo.craigslist.org
+  :atlanta: http://atlanta.craigslist.org
+  :manchester: http://manchester.craigslist.co.uk
+  :troisrivieres: http://troisrivieres.craigslist.ca
+  :killeen: http://killeen.craigslist.org
+  :albuquerque: http://albuquerque.craigslist.org
+  :evansville: http://evansville.craigslist.org
+  :cairo: http://cairo.craigslist.org
+  :hyderabad: http://hyderabad.craigslist.co.in
+  :rouen: http://rouen.craigslist.org
+  :richmond: http://richmond.craigslist.org
+  :charlotte: http://charlotte.craigslist.org
+  :seoul: http://seoul.craigslist.co.kr
+  :genoa: http://genoa.craigslist.it
+  :lacrosse: http://lacrosse.craigslist.org
+  :boulder: http://boulder.craigslist.org
+  :darwin: http://darwin.craigslist.com.au
+  :cadiz: http://cadiz.craigslist.es
+  :sunshine: http://sunshine.craigslist.ca
+  :pennstate: http://pennstate.craigslist.org
+  :hattiesburg: http://hattiesburg.craigslist.org
+  :sarasota: http://sarasota.craigslist.org
+  :santiago: http://santiago.craigslist.org
+  :dundee: http://dundee.craigslist.co.uk
+  :soo: http://soo.craigslist.ca
+  :austin: http://austin.craigslist.org
+  :elko: http://elko.craigslist.org
+  :chicago: http://chicago.craigslist.org
+  :panama: http://panama.craigslist.org
+  :xian: http://xian.craigslist.com.cn
+  :helsinki: http://helsinki.craigslist.fi
+  :prescott: http://prescott.craigslist.org
+  :stgeorge: http://stgeorge.craigslist.org
+  :oneonta: http://oneonta.craigslist.org
+  :ottumwa: http://ottumwa.craigslist.org
+  :ramallah: http://ramallah.craigslist.org
+  :stuttgart: http://stuttgart.craigslist.de
+  :sfbay: http://sfbay.craigslist.org
+  :morgantown: http://morgantown.craigslist.org
+  :cincinnati: http://cincinnati.craigslist.org
+  :baltimore: http://baltimore.craigslist.org
+  :porto: http://porto.craigslist.pt
+  :reddeer: http://reddeer.craigslist.ca
+  :fortmyers: http://fortmyers.craigslist.org
+  :chambersburg: http://chambersburg.craigslist.org
+  :aberdeen: http://aberdeen.craigslist.co.uk
+  :cornwall: http://cornwall.craigslist.ca
+  :valdosta: http://valdosta.craigslist.org
+  :chattanooga: http://chattanooga.craigslist.org
+  :greatfalls: http://greatfalls.craigslist.org
+  :mazatlan: http://mazatlan.craigslist.com.mx
+  :beijing: http://beijing.craigslist.com.cn
+  :vienna: http://vienna.craigslist.at
+  :terrehaute: http://terrehaute.craigslist.org
+  :montgomery: http://montgomery.craigslist.org
+  :bigbend: http://bigbend.craigslist.org
+  :binghamton: http://binghamton.craigslist.org
+  :surat: http://surat.craigslist.co.in
+  :dresden: http://dresden.craigslist.de
+  :batonrouge: http://batonrouge.craigslist.org
+  :inlandempire: http://inlandempire.craigslist.org
+  :olympic: http://olympic.craigslist.org
+  :wilmington: http://wilmington.craigslist.org
+  :naga: http://naga.craigslist.com.ph
+  :venice: http://venice.craigslist.it
+  :micronesia: http://micronesia.craigslist.org
+  :jxn: http://jxn.craigslist.org
+  :corvallis: http://corvallis.craigslist.org
+  :stockholm: http://stockholm.craigslist.se
+  :kansascity: http://kansascity.craigslist.org
+  :florencesc: http://florencesc.craigslist.org
+  :leeds: http://leeds.craigslist.co.uk
+  :montreal: http://montreal.craigslist.ca
+  :newjersey: http://newjersey.craigslist.org
+  :quincy: http://quincy.craigslist.org
+  :elpaso: http://elpaso.craigslist.org
+  :chennai: http://chennai.craigslist.co.in
+  :marseilles: http://marseilles.craigslist.org
+  :swks: http://swks.craigslist.org
+  :jonesboro: http://jonesboro.craigslist.org
+  :harrisonburg: http://harrisonburg.craigslist.org
+  :sendai: http://sendai.craigslist.jp
+  :dublin: http://dublin.craigslist.org
+  :greenbay: http://greenbay.craigslist.org
+  :tuscarawas: http://tuscarawas.craigslist.org
+  :southcoast: http://southcoast.craigslist.org
+  :visalia: http://visalia.craigslist.org
+  :brisbane: http://brisbane.craigslist.com.au
+  :baleares: http://baleares.craigslist.es
+  :nanaimo: http://nanaimo.craigslist.ca
+  :poconos: http://poconos.craigslist.org
+  :stcloud: http://stcloud.craigslist.org
+  :orlando: http://orlando.craigslist.org
+  :salvador: http://salvador.craigslist.org
+  :coventry: http://coventry.craigslist.co.uk
+  :owensound: http://owensound.craigslist.ca
+  :omaha: http://omaha.craigslist.org
+  :yucatan: http://yucatan.craigslist.com.mx
+  :shenyang: http://shenyang.craigslist.com.cn
+  :ogden: http://ogden.craigslist.org
+  :ithaca: http://ithaca.craigslist.org
+  :masoncity: http://masoncity.craigslist.org
+  :flagstaff: http://flagstaff.craigslist.org
+  :haifa: http://haifa.craigslist.org
+  :leipzig: http://leipzig.craigslist.de
+  :charlestonwv: http://charlestonwv.craigslist.org
+  :ashtabula: http://ashtabula.craigslist.org
+  :maine: http://maine.craigslist.org
+  :redding: http://redding.craigslist.org
+  :singapore: http://singapore.craigslist.com.sg
+  :lethbridge: http://lethbridge.craigslist.ca
+  :salem: http://salem.craigslist.org
+  :swmi: http://swmi.craigslist.org
+  :buenosaires: http://buenosaires.craigslist.org
+  :istanbul: http://istanbul.craigslist.com.tr
+  :belleville: http://belleville.craigslist.ca
+  :siouxfalls: http://siouxfalls.craigslist.org
+  :billings: http://billings.craigslist.org
+  :nwga: http://nwga.craigslist.org
+  :guadalajara: http://guadalajara.craigslist.com.mx
+  :whitehorse: http://whitehorse.craigslist.ca
+  :gadsden: http://gadsden.craigslist.org
+  :sanangelo: http://sanangelo.craigslist.org
+  :santafe: http://santafe.craigslist.org
+  :muncie: http://muncie.craigslist.org
+  :kenya: http://kenya.craigslist.org
+  :lucknow: http://lucknow.craigslist.co.in
+  :berlin: http://berlin.craigslist.de
+  :hanford: http://hanford.craigslist.org
+  :bellingham: http://bellingham.craigslist.org
+  :onslow: http://onslow.craigslist.org
+  :owensboro: http://owensboro.craigslist.org
+  :pakistan: http://pakistan.craigslist.org
+  :sardinia: http://sardinia.craigslist.it
+  :wausau: http://wausau.craigslist.org
+  :rockies: http://rockies.craigslist.org
+  :tulsa: http://tulsa.craigslist.org
+  :flint: http://flint.craigslist.org
+  :sydney: http://sydney.craigslist.com.au
+  :sevilla: http://sevilla.craigslist.es
+  :winnipeg: http://winnipeg.craigslist.ca
+  :tampa: http://tampa.craigslist.org
+  :santodomingo: http://santodomingo.craigslist.org
+  :glasgow: http://glasgow.craigslist.co.uk
+  :rockford: http://rockford.craigslist.org
+  :dallas: http://dallas.craigslist.org
+  :montevideo: http://montevideo.craigslist.org
+  :bangalore: http://bangalore.craigslist.co.in
+  :lille: http://lille.craigslist.org
+  :nwks: http://nwks.craigslist.org
+  :danville: http://danville.craigslist.org
+  :twintiers: http://twintiers.craigslist.org
+  :okinawa: http://okinawa.craigslist.jp
+  :stockton: http://stockton.craigslist.org
+  :mansfield: http://mansfield.craigslist.org
+  :stpetersburg: http://stpetersburg.craigslist.org
+  :kamloops: http://kamloops.craigslist.ca
+  :minneapolis: http://minneapolis.craigslist.org
+  :lakecity: http://lakecity.craigslist.org
+  :meadville: http://meadville.craigslist.org
+  :portoalegre: http://portoalegre.craigslist.org
+  :bristol: http://bristol.craigslist.co.uk
+  :londonon: http://londonon.craigslist.ca
+  :grandisland: http://grandisland.craigslist.org
+  :eastidaho: http://eastidaho.craigslist.org
+  :memphis: http://memphis.craigslist.org
+  :pv: http://pv.craigslist.com.mx
+  :hangzhou: http://hangzhou.craigslist.com.cn
+  :zagreb: http://zagreb.craigslist.org
+  :fingerlakes: http://fingerlakes.craigslist.org
+  :dubuque: http://dubuque.craigslist.org
+  :kenai: http://kenai.craigslist.org
+  :wichitafalls: http://wichitafalls.craigslist.org
+  :hannover: http://hannover.craigslist.de
+  :grandforks: http://grandforks.craigslist.org
+  :monroe: http://monroe.craigslist.org
+  :monterey: http://monterey.craigslist.org
+  :wenatchee: http://wenatchee.craigslist.org
+  :manila: http://manila.craigslist.com.ph
+  :oslo: http://oslo.craigslist.org
+  :calgary: http://calgary.craigslist.ca
+  :oregoncoast: http://oregoncoast.craigslist.org
+  :nmi: http://nmi.craigslist.org
+  :delaware: http://delaware.craigslist.org
+  :lausanne: http://lausanne.craigslist.ch
+  :halifax: http://halifax.craigslist.ca
+  :nesd: http://nesd.craigslist.org
+  :stjoseph: http://stjoseph.craigslist.org
+  :brunswick: http://brunswick.craigslist.org
+  :bajasur: http://bajasur.craigslist.com.mx
+  :nottingham: http://nottingham.craigslist.co.uk
+  :regina: http://regina.craigslist.ca
+  :lubbock: http://lubbock.craigslist.org
+  :farmington: http://farmington.craigslist.org
+  :indianapolis: http://indianapolis.craigslist.org
+  :bham: http://bham.craigslist.org
+  :addisababa: http://addisababa.craigslist.org
+  :jaipur: http://jaipur.craigslist.co.in
+  :strasbourg: http://strasbourg.craigslist.org
+  :fayetteville: http://fayetteville.craigslist.org
+  :eastky: http://eastky.craigslist.org
+  :chico: http://chico.craigslist.org
+  :swva: http://swva.craigslist.org
+  :naples: http://naples.craigslist.it
+  :milwaukee: http://milwaukee.craigslist.org
+  :enid: http://enid.craigslist.org
+  :battlecreek: http://battlecreek.craigslist.org
+  :denver: http://denver.craigslist.org
+  :melbourne: http://melbourne.craigslist.com.au
+  :granada: http://granada.craigslist.es
+  :victoria: http://victoria.craigslist.ca
+  :york: http://york.craigslist.org
+  :meridian: http://meridian.craigslist.org
+  :spacecoast: http://spacecoast.craigslist.org
+  :eastmids: http://eastmids.craigslist.co.uk
+  :thunderbay: http://thunderbay.craigslist.ca
+  :brownsville: http://brownsville.craigslist.org
+  :reno: http://reno.craigslist.org
+  :lasalle: http://lasalle.craigslist.org
+  :lima: http://lima.craigslist.org
+  :hongkong: http://hongkong.craigslist.hk
+  :bordeaux: http://bordeaux.craigslist.org
+  :sierravista: http://sierravista.craigslist.org
+  :burlington: http://burlington.craigslist.org
+  :potsdam: http://potsdam.craigslist.org
+  :fukuoka: http://fukuoka.craigslist.jp
+  :athens: http://athens.craigslist.gr
+  :santabarbara: http://santabarbara.craigslist.org
+  :parkersburg: http://parkersburg.craigslist.org
+  :columbus: http://columbus.craigslist.org
+  :frederick: http://frederick.craigslist.org
+  :bucharest: http://bucharest.craigslist.org
+  :cariboo: http://cariboo.craigslist.ca
+  :cfl: http://cfl.craigslist.org
+  :harrisburg: http://harrisburg.craigslist.org
+  :brainerd: http://brainerd.craigslist.org
+  :brasilia: http://brasilia.craigslist.org
+  :belfast: http://belfast.craigslist.co.uk
+  :hamilton: http://hamilton.craigslist.ca
+  :honolulu: http://honolulu.craigslist.org
+  :cookeville: http://cookeville.craigslist.org
+  :kalispell: http://kalispell.craigslist.org
+  :monterrey: http://monterrey.craigslist.com.mx
+  :chongqing: http://chongqing.craigslist.com.cn
+  :brussels: http://brussels.craigslist.org
+  :ames: http://ames.craigslist.org
+  :nd: http://nd.craigslist.org
+  :easttexas: http://easttexas.craigslist.org
+  :catskills: http://catskills.craigslist.org
+  :durban: http://durban.craigslist.co.za
+  :jakarta: http://jakarta.craigslist.org
+  :essen: http://essen.craigslist.de
+  :houma: http://houma.craigslist.org
+  :mendocino: http://mendocino.craigslist.org
+  :seattle: http://seattle.craigslist.org
+  :cebu: http://cebu.craigslist.com.ph
+  :virgin: http://virgin.craigslist.org
+  :lansing: http://lansing.craigslist.org
+  :hartford: http://hartford.craigslist.org
+  :eugene: http://eugene.craigslist.org
+  :christchurch: http://christchurch.craigslist.org
+  :basel: http://basel.craigslist.ch
+  :loz: http://loz.craigslist.org
+  :athensga: http://athensga.craigslist.org
+  :hiltonhead: http://hiltonhead.craigslist.org
+  :guatemala: http://guatemala.craigslist.org
+  :london: http://london.craigslist.co.uk
+  :sherbrooke: http://sherbrooke.craigslist.ca
+  :bloomington: http://bloomington.craigslist.org
+  :houston: http://houston.craigslist.org
+  :goa: http://goa.craigslist.co.in
+  :cotedazur: http://cotedazur.craigslist.org
+  :wichita: http://wichita.craigslist.org
+  :texarkana: http://texarkana.craigslist.org
+  :blacksburg: http://blacksburg.craigslist.org
+  :boone: http://boone.craigslist.org
+  :florence: http://florence.craigslist.it
+  :racine: http://racine.craigslist.org
+  :worcester: http://worcester.craigslist.org
+  :zanesville: http://zanesville.craigslist.org
+  :canberra: http://canberra.craigslist.com.au
+  :bilbao: http://bilbao.craigslist.es
+  :skeena: http://skeena.craigslist.ca
+  :gulfport: http://gulfport.craigslist.org
+  :pensacola: http://pensacola.craigslist.org
+  :scranton: http://scranton.craigslist.org
+  :devon: http://devon.craigslist.co.uk
+  :sarnia: http://sarnia.craigslist.ca
+  :chambana: http://chambana.craigslist.org
+  :amarillo: http://amarillo.craigslist.org
+  :managua: http://managua.craigslist.org
+  :wuhan: http://wuhan.craigslist.com.cn
+  :newyork: http://newyork.craigslist.org
+  :siouxcity: http://siouxcity.craigslist.org
+  :phoenix: http://phoenix.craigslist.org
+  :saltlakecity: http://saltlakecity.craigslist.org
+  :telaviv: http://telaviv.craigslist.org
+  :nuremberg: http://nuremberg.craigslist.de
+  :chillicothe: http://chillicothe.craigslist.org
+  :annapolis: http://annapolis.craigslist.org
+  :sandiego: http://sandiego.craigslist.org
+  :huntington: http://huntington.craigslist.org
+  :taipei: http://taipei.craigslist.com.tw
+  :lisbon: http://lisbon.craigslist.pt
+  :peace: http://peace.craigslist.ca
+  :altoona: http://altoona.craigslist.org
+  :up: http://up.craigslist.org
+  :fortlauderdale: http://fortlauderdale.craigslist.org
+  :lapaz: http://lapaz.craigslist.org
+  :chatham: http://chatham.craigslist.ca
+  :butte: http://butte.craigslist.org
+  :statesboro: http://statesboro.craigslist.org
+  :hermosillo: http://hermosillo.craigslist.com.mx
+  :mobile: http://mobile.craigslist.org
+  :sanmarcos: http://sanmarcos.craigslist.org
+  :albany: http://albany.craigslist.org
+  :southbend: http://southbend.craigslist.org
+  :casablanca: http://casablanca.craigslist.org
+  :pune: http://pune.craigslist.co.in
+  :cologne: http://cologne.craigslist.de
+  :imperial: http://imperial.craigslist.org
+  :moseslake: http://moseslake.craigslist.org
+  :raleigh: http://raleigh.craigslist.org
+  :bacolod: http://bacolod.craigslist.com.ph
+  :torino: http://torino.craigslist.it
+  :territories: http://territories.craigslist.ca
+  :westslope: http://westslope.craigslist.org
+  :bend: http://bend.craigslist.org
+  :holland: http://holland.craigslist.org
+  :wollongong: http://wollongong.craigslist.com.au
+  :newbrunswick: http://newbrunswick.craigslist.ca
+  :westpalmbeach: http://westpalmbeach.craigslist.org
+  :columbia: http://columbia.craigslist.org
+  :joplin: http://joplin.craigslist.org
+  :quito: http://quito.craigslist.org
+  :kent: http://kent.craigslist.co.uk
+  :quebec: http://quebec.craigslist.ca
+  :springfieldil: http://springfieldil.craigslist.org
+  :delrio: http://delrio.craigslist.org
+  :jerseyshore: http://jerseyshore.craigslist.org
+  :caracas: http://caracas.craigslist.org
+  :chandigarh: http://chandigarh.craigslist.co.in
+  :lyon: http://lyon.craigslist.org
+  :fortsmith: http://fortsmith.craigslist.org
+  :norfolk: http://norfolk.craigslist.org
+  :watertown: http://watertown.craigslist.org
+  :seks: http://seks.craigslist.org
+  :sapporo: http://sapporo.craigslist.jp
+  :eauclaire: http://eauclaire.craigslist.org
+  :ventura: http://ventura.craigslist.org
+  :toledo: http://toledo.craigslist.org
+  :capecod: http://capecod.craigslist.org
+  :adelaide: http://adelaide.craigslist.com.au
+  :alicante: http://alicante.craigslist.es
+  :cranbrook: http://cranbrook.craigslist.ca
+  :okaloosa: http://okaloosa.craigslist.org
+  :pittsburgh: http://pittsburgh.craigslist.org
+  :marshall: http://marshall.craigslist.org
+  :rio: http://rio.craigslist.org
+  :cardiff: http://cardiff.craigslist.co.uk
+  :ottawa: http://ottawa.craigslist.ca
+  :twinfalls: http://twinfalls.craigslist.org
+  :tricities: http://tricities.craigslist.org
+  :northplatte: http://northplatte.craigslist.org
+  :veracruz: http://veracruz.craigslist.com.mx
+  :shanghai: http://shanghai.craigslist.com.cn
+  :prague: http://prague.craigslist.cz
+  :iowacity: http://iowacity.craigslist.org
+  :logan: http://logan.craigslist.org
+  :hudsonvalley: http://hudsonvalley.craigslist.org
+  :kaiserslautern: http://kaiserslautern.craigslist.de
+  :shreveport: http://shreveport.craigslist.org
+  :palmsprings: http://palmsprings.craigslist.org
+  :akroncanton: http://akroncanton.craigslist.org
+  :zamboanga: http://zamboanga.craigslist.com.ph
+  :warsaw: http://warsaw.craigslist.pl
+  :ftmcmurray: http://ftmcmurray.craigslist.ca
+  :saginaw: http://saginaw.craigslist.org
+  :washingtondc: http://washingtondc.craigslist.org
+  :roseburg: http://roseburg.craigslist.org
+  :barrie: http://barrie.craigslist.ca
+  :montana: http://montana.craigslist.org
+  :macon: http://macon.craigslist.org
+  :rapidcity: http://rapidcity.craigslist.org
+  :juarez: http://juarez.craigslist.com.mx
+  :sheffield: http://sheffield.craigslist.co.uk
+  :roswell: http://roswell.craigslist.org
+  :tippecanoe: http://tippecanoe.craigslist.org
+  :shoals: http://shoals.craigslist.org
+  :odessa: http://odessa.craigslist.org
+  :accra: http://accra.craigslist.org
+  :kolkata: http://kolkata.craigslist.co.in
+  :hickory: http://hickory.craigslist.org
+  :louisville: http://louisville.craigslist.org
+  :goldcountry: http://goldcountry.craigslist.org
+  :malaysia: http://malaysia.craigslist.org
+  :rome: http://rome.craigslist.it
+  :sheboygan: http://sheboygan.craigslist.org
+  :stillwater: http://stillwater.craigslist.org
+  :detroit: http://detroit.craigslist.org
+  :fortcollins: http://fortcollins.craigslist.org
+  :perth: http://perth.craigslist.com.au
+  :malaga: http://malaga.craigslist.es
+  :providence: http://providence.craigslist.org
+  :natchez: http://natchez.craigslist.org
+  :tallahassee: http://tallahassee.craigslist.org
+  :essex: http://essex.craigslist.co.uk
+  :windsor: http://windsor.craigslist.ca
+  :corpuschristi: http://corpuschristi.craigslist.org
+  :nh: http://nh.craigslist.org
+  :peoria: http://peoria.craigslist.org
+  :ahmedabad: http://ahmedabad.craigslist.co.in
+  :grenoble: http://grenoble.craigslist.org
+  :charlottesville: http://charlottesville.craigslist.org
+  :syracuse: http://syracuse.craigslist.org
+  :ksu: http://ksu.craigslist.org
+  :yuma: http://yuma.craigslist.org
+  :nagoya: http://nagoya.craigslist.jp
+  :budapest: http://budapest.craigslist.org
+  :wv: http://wv.craigslist.org
+  :limaohio: http://limaohio.craigslist.org
+  :westmd: http://westmd.craigslist.org
+  :siskiyou: http://siskiyou.craigslist.org
+  :vietnam: http://vietnam.craigslist.org
+  :moscow: http://moscow.craigslist.org
+  :abbotsford: http://abbotsford.craigslist.ca
+  :allentown: http://allentown.craigslist.org
+  :mankato: http://mankato.craigslist.org
+  :lakeland: http://lakeland.craigslist.org
+  :fortaleza: http://fortaleza.craigslist.org
+  :brighton: http://brighton.craigslist.co.uk
+  :kitchener: http://kitchener.craigslist.ca
+  :knoxville: http://knoxville.craigslist.org
+  :boise: http://boise.craigslist.org
+  :puebla: http://puebla.craigslist.com.mx
+  :guangzhou: http://guangzhou.craigslist.com.cn
+  :fairbanks: http://fairbanks.craigslist.org
+  :waco: http://waco.craigslist.org
+  :elmira: http://elmira.craigslist.org
+  :desmoines: http://desmoines.craigslist.org
+  :pretoria: http://pretoria.craigslist.co.za
+  :tehran: http://tehran.craigslist.org
+  :hamburg: http://hamburg.craigslist.de
+  :modesto: http://modesto.craigslist.org
+  :spokane: http://spokane.craigslist.org
+  :fargo: http://fargo.craigslist.org
+  :lakecharles: http://lakecharles.craigslist.org
+  :iloilo: http://iloilo.craigslist.com.ph
+  :nwct: http://nwct.craigslist.org
+  :medford: http://medford.craigslist.org
+  :muskegon: http://muskegon.craigslist.org
+  :wellington: http://wellington.craigslist.org
+  :geneva: http://geneva.craigslist.ch
+  :augusta: http://augusta.craigslist.org
+  :springfield: http://springfield.craigslist.org
+  :acapulco: http://acapulco.craigslist.com.mx
+  :newcastle: http://newcastle.craigslist.co.uk
+  :fortwayne: http://fortwayne.craigslist.org
+  :auburn: http://auburn.craigslist.org
+  :laredo: http://laredo.craigslist.org
+  :clovis: http://clovis.craigslist.org
+  :indore: http://indore.craigslist.co.in
+  :paris: http://paris.craigslist.org
+  :bgky: http://bgky.craigslist.org
+  :bakersfield: http://bakersfield.craigslist.org
+  :roanoke: http://roanoke.craigslist.org
+  :eastnc: http://eastnc.craigslist.org
+  :kuwait: http://kuwait.craigslist.org
+  :milan: http://milan.craigslist.it
+  :madison: http://madison.craigslist.org
+  :annarbor: http://annarbor.craigslist.org
+  :cosprings: http://cosprings.craigslist.org
+  :lawton: http://lawton.craigslist.org
+  :goldcoast: http://goldcoast.craigslist.com.au
+  :canarias: http://canarias.craigslist.es
+  :vancouver: http://vancouver.craigslist.ca
+  :jackson: http://jackson.craigslist.org
+  :miami: http://miami.craigslist.org
+  :williamsport: http://williamsport.craigslist.org
+  :colombia: http://colombia.craigslist.org
+  :norwich: http://norwich.craigslist.co.uk
+  :sudbury: http://sudbury.craigslist.ca
+  :lasvegas: http://lasvegas.craigslist.org
+  :decatur: http://decatur.craigslist.org
+  :beaumont: http://beaumont.craigslist.org
+  :plattsburgh: http://plattsburgh.craigslist.org
+  :waterloo: http://waterloo.craigslist.org
+  :showlow: http://showlow.craigslist.org
+  :cleveland: http://cleveland.craigslist.org
+  :easternshore: http://easternshore.craigslist.org
+  :slo: http://slo.craigslist.org
+  :wheeling: http://wheeling.craigslist.org
+  :bangkok: http://bangkok.craigslist.co.th
+  :erie: http://erie.craigslist.org
+  :bemidji: http://bemidji.craigslist.org
+  :gainesville: http://gainesville.craigslist.org
+  :belohorizonte: http://belohorizonte.craigslist.org
+  :bath: http://bath.craigslist.co.uk
+  :guelph: http://guelph.craigslist.ca
+  :clarksville: http://clarksville.craigslist.org
+  :helena: http://helena.craigslist.org
+  :mexicocity: http://mexicocity.craigslist.com.mx
+  :chengdu: http://chengdu.craigslist.com.cn
+  :texoma: http://texoma.craigslist.org
+  :buffalo: http://buffalo.craigslist.org
+  :tuscaloosa: http://tuscaloosa.craigslist.org
+  :capetown: http://capetown.craigslist.co.za
+  :dusseldorf: http://dusseldorf.craigslist.de
+  :pullman: http://pullman.craigslist.org
+  :winstonsalem: http://winstonsalem.craigslist.org
+  :cenla: http://cenla.craigslist.org
+  :losangeles: http://losangeles.craigslist.org
+  :cdo: http://cdo.craigslist.com.ph
+  :luxembourg: http://luxembourg.craigslist.org
+  :puertorico: http://puertorico.craigslist.org
+  :eastoregon: http://eastoregon.craigslist.org
+  :kalamazoo: http://kalamazoo.craigslist.org
+  :newlondon: http://newlondon.craigslist.org
+  :auckland: http://auckland.craigslist.org
+  :newfoundland: http://newfoundland.craigslist.ca
+  :greenville: http://greenville.craigslist.org
+  :kirksville: http://kirksville.craigslist.org
+  :albanyga: http://albanyga.craigslist.org
+  :elsalvador: http://elsalvador.craigslist.org
+  :liverpool: http://liverpool.craigslist.co.uk
+  :saguenay: http://saguenay.craigslist.ca
+  :galveston: http://galveston.craigslist.org
+  :southjersey: http://southjersey.craigslist.org
+  :delhi: http://delhi.craigslist.co.in
+  :montpellier: http://montpellier.craigslist.org
+  :littlerock: http://littlerock.craigslist.org
+  :lynchburg: http://lynchburg.craigslist.org
+  :asheville: http://asheville.craigslist.org
+  :topeka: http://topeka.craigslist.org
+  :tokyo: http://tokyo.craigslist.jp
+  :bologna: http://bologna.craigslist.it
+  :janesville: http://janesville.craigslist.org
+  :yubasutter: http://yubasutter.craigslist.org
+  :youngstown: http://youngstown.craigslist.org
+  :westernmass: http://westernmass.craigslist.org
+  :cairns: http://cairns.craigslist.com.au
+  :barcelona: http://barcelona.craigslist.es
+  :princegeorge: http://princegeorge.craigslist.ca
+  :panamacity: http://panamacity.craigslist.org
+  :reading: http://reading.craigslist.org
+  :saopaulo: http://saopaulo.craigslist.org
+  :derby: http://derby.craigslist.co.uk
+  :peterborough: http://peterborough.craigslist.ca
+  :bn: http://bn.craigslist.org
+  :abilene: http://abilene.craigslist.org
+  :scottsbluff: http://scottsbluff.craigslist.org
+  :shenzhen: http://shenzhen.craigslist.com.cn
+  :copenhagen: http://copenhagen.craigslist.org
+  :quadcities: http://quadcities.craigslist.org
+  :mohave: http://mohave.craigslist.org
+  :provo: http://provo.craigslist.org
+  :longisland: http://longisland.craigslist.org
+  :jerusalem: http://jerusalem.craigslist.org
+  :munich: http://munich.craigslist.de
+  :sacramento: http://sacramento.craigslist.org
+  :martinsburg: http://martinsburg.craigslist.org
+  :athensohio: http://athensohio.craigslist.org
+  :faro: http://faro.craigslist.pt
+  :hat: http://hat.craigslist.ca
+  :thumb: http://thumb.craigslist.org
+  :daytona: http://daytona.craigslist.org
+  :ukraine: http://ukraine.craigslist.org
+  :brantford: http://brantford.craigslist.ca
+  :bozeman: http://bozeman.craigslist.org
+  :savannah: http://savannah.craigslist.org
+  :sd: http://sd.craigslist.org
+  :guanajuato: http://guanajuato.craigslist.com.mx
+  :bangladesh: http://bangladesh.craigslist.org
+  :richmondin: http://richmondin.craigslist.org
+  :huntsville: http://huntsville.craigslist.org
+  :sanantonio: http://sanantonio.craigslist.org
+  :mumbai: http://mumbai.craigslist.co.in
+  :bremen: http://bremen.craigslist.de
+  :outerbanks: http://outerbanks.craigslist.org
+  :westky: http://westky.craigslist.org
+  :humboldt: http://humboldt.craigslist.org
+  :kpr: http://kpr.craigslist.org
+  :sicily: http://sicily.craigslist.it
+  :wyoming: http://wyoming.craigslist.org
+  :grandrapids: http://grandrapids.craigslist.org
+  :pueblo: http://pueblo.craigslist.org
+  :hobart: http://hobart.craigslist.com.au
+  :valencia: http://valencia.craigslist.es
+  :columbiamo: http://columbiamo.craigslist.org
+  :treasure: http://treasure.craigslist.org
+  :charleston: http://charleston.craigslist.org
+  :hampshire: http://hampshire.craigslist.co.uk
+  :pei: http://pei.craigslist.ca
+  :cnj: http://cnj.craigslist.org
+  :carbondale: http://carbondale.craigslist.org
+  :nacogdoches: http://nacogdoches.craigslist.org
+  :bhubaneswar: http://bhubaneswar.craigslist.co.in
+  :loire: http://loire.craigslist.org
+  :utica: http://utica.craigslist.org
+  :salina: http://salina.craigslist.org
+  :fayar: http://fayar.craigslist.org
+  :fredericksburg: http://fredericksburg.craigslist.org
+  :osaka: http://osaka.craigslist.jp
+  :reykjavik: http://reykjavik.craigslist.org
+  :appleton: http://appleton.craigslist.org
+  :sandusky: http://sandusky.craigslist.org
+  :boston: http://boston.craigslist.org
+  :susanville: http://susanville.craigslist.org
+  :kelowna: http://kelowna.craigslist.ca
+  :philadelphia: http://philadelphia.craigslist.org
+  :rmn: http://rmn.craigslist.org
+  :ocala: http://ocala.craigslist.org
+  :recife: http://recife.craigslist.org
+  :cambridge: http://cambridge.craigslist.co.uk
+  :niagara: http://niagara.craigslist.ca
+  :nashville: http://nashville.craigslist.org
+  :lincoln: http://lincoln.craigslist.org
+  :lewiston: http://lewiston.craigslist.org
+  :tijuana: http://tijuana.craigslist.com.mx
+  :nanjing: http://nanjing.craigslist.com.cn
+  :juneau: http://juneau.craigslist.org
+  :glensfalls: http://glensfalls.craigslist.org
+  :fortdodge: http://fortdodge.craigslist.org
+  :tunis: http://tunis.craigslist.org
+  :baghdad: http://baghdad.craigslist.org
+  :heidelberg: http://heidelberg.craigslist.de
+  :orangecounty: http://orangecounty.craigslist.org
+  :yakima: http://yakima.craigslist.org
+  :neworleans: http://neworleans.craigslist.org
+  :pampanga: http://pampanga.craigslist.com.ph
+  :edmonton: http://edmonton.craigslist.ca
+  :portland: http://portland.craigslist.org
+  :porthuron: http://porthuron.craigslist.org
+  :caribbean: http://caribbean.craigslist.org
+  :zurich: http://zurich.craigslist.ch
+  :columbusga: http://columbusga.craigslist.org
+  :csd: http://csd.craigslist.org
+  :stlouis: http://stlouis.craigslist.org
+  :chihuahua: http://chihuahua.craigslist.com.mx
+  :oxford: http://oxford.craigslist.co.uk
+  :saskatoon: http://saskatoon.craigslist.ca
+  :kokomo: http://kokomo.craigslist.org
+  :dothan: http://dothan.craigslist.org
+  :mcallen: http://mcallen.craigslist.org
+  :lascruces: http://lascruces.craigslist.org
+  :kerala: http://kerala.craigslist.co.in
+  :toulouse: http://toulouse.craigslist.org
+  :lexington: http://lexington.craigslist.org
+  :fresno: http://fresno.craigslist.org
+  :winchester: http://winchester.craigslist.org
+  :greensboro: http://greensboro.craigslist.org
+  :beirut: http://beirut.craigslist.org
+  :perugia: http://perugia.craigslist.it
+  :northernwi: http://northernwi.craigslist.org
+  :centralmich: http://centralmich.craigslist.org
+  :eastco: http://eastco.craigslist.org
+  :oklahomacity: http://oklahomacity.craigslist.org
+  :keys: http://keys.craigslist.org
+  :ntl: http://ntl.craigslist.com.au
+  :madrid: http://madrid.craigslist.es
+  :whistler: http://whistler.craigslist.ca
+  :staugustine: http://staugustine.craigslist.org
+  :northmiss: http://northmiss.craigslist.org
+  :costarica: http://costarica.craigslist.org
+  :edinburgh: http://edinburgh.craigslist.co.uk
+  :toronto: http://toronto.craigslist.ca
+  :mattoon: http://mattoon.craigslist.org
+  :collegestation: http://collegestation.craigslist.org
+  :rennes: http://rennes.craigslist.org
+  :lawrence: http://lawrence.craigslist.org
+  :tucson: http://tucson.craigslist.org
+  :rochester: http://rochester.craigslist.org
+:continents: 
+  :OCEANIA: 
+    :states: 
+      :australia: 
+      - :adelaide
+      - :brisbane
+      - :cairns
+      - :canberra
+      - :darwin
+      - :goldcoast
+      - :melbourne
+      - :ntl
+      - :perth
+      - :sydney
+      - :hobart
+      - :wollongong
+      :new_zealand: 
+      - :auckland
+      - :christchurch
+      - :dunedin
+      - :wellington
+    :name: Oceania
+  :EU: 
+    :states: 
+      :russian_federation: 
+      - :moscow
+      - :stpetersburg
+      :denmark: 
+      - :copenhagen
+      :switzerland: 
+      - :basel
+      - :bern
+      - :geneva
+      - :lausanne
+      - :zurich
+      :italy: 
+      - :bologna
+      - :florence
+      - :genoa
+      - :milan
+      - :naples
+      - :perugia
+      - :rome
+      - :sardinia
+      - :sicily
+      - :torino
+      - :venice
+      :bulgaria: 
+      - :bulgaria
+      :turkey: 
+      - :istanbul
+      :norway: 
+      - :oslo
+      :greece: 
+      - :athens
+      :ireland: 
+      - :dublin
+      :germany: 
+      - :berlin
+      - :bremen
+      - :cologne
+      - :dresden
+      - :dusseldorf
+      - :essen
+      - :frankfurt
+      - :hamburg
+      - :hannover
+      - :heidelberg
+      - :kaiserslautern
+      - :leipzig
+      - :munich
+      - :nuremberg
+      - :stuttgart
+      :croatia: 
+      - :zagreb
+      :finland: 
+      - :helsinki
+      :austria: 
+      - :vienna
+      :ukraine: 
+      - :ukraine
+      :spain: 
+      - :alicante
+      - :baleares
+      - :barcelona
+      - :bilbao
+      - :cadiz
+      - :canarias
+      - :granada
+      - :madrid
+      - :malaga
+      - :sevilla
+      - :valencia
+      :poland: 
+      - :warsaw
+      :hungary: 
+      - :budapest
+      :romania: 
+      - :bucharest
+      :luxembourg: 
+      - :luxembourg
+      :czech_republic: 
+      - :prague
+      :united_kingdom: 
+      - :aberdeen
+      - :bath
+      - :belfast
+      - :birmingham
+      - :brighton
+      - :bristol
+      - :cambridge
+      - :cardiff
+      - :coventry
+      - :derby
+      - :devon
+      - :dundee
+      - :norwich
+      - :eastmids
+      - :edinburgh
+      - :essex
+      - :glasgow
+      - :hampshire
+      - :kent
+      - :leeds
+      - :liverpool
+      - :london
+      - :manchester
+      - :newcastle
+      - :nottingham
+      - :oxford
+      - :sheffield
+      :sweden: 
+      - :stockholm
+      :france: 
+      - :bordeaux
+      - :rennes
+      - :grenoble
+      - :lille
+      - :loire
+      - :lyon
+      - :marseilles
+      - :montpellier
+      - :cotedazur
+      - :rouen
+      - :paris
+      - :strasbourg
+      - :toulouse
+      :belgium: 
+      - :brussels
+      :netherlands: 
+      - :amsterdam
+      :portugal: 
+      - :faro
+      - :lisbon
+      - :porto
+      :iceland: 
+      - :reykjavik
+    :name: Europe
+  :CA: 
+    :states: 
+      :prince_edward_island: 
+      - :pei
+      :newfoundland_and_labrador: 
+      - :newfoundland
+      :ontario: 
+      - :barrie
+      - :belleville
+      - :brantford
+      - :chatham
+      - :cornwall
+      - :guelph
+      - :hamilton
+      - :kingston
+      - :kitchener
+      - :londonon
+      - :niagara
+      - :ottawa
+      - :owensound
+      - :peterborough
+      - :sarnia
+      - :soo
+      - :sudbury
+      - :thunderbay
+      - :toronto
+      - :windsor
+      :saskatchewan: 
+      - :regina
+      - :saskatoon
+      :quebec: 
+      - :montreal
+      - :quebec
+      - :saguenay
+      - :sherbrooke
+      - :troisrivieres
+      :manitoba: 
+      - :winnipeg
+      :alberta: 
+      - :calgary
+      - :edmonton
+      - :ftmcmurray
+      - :lethbridge
+      - :hat
+      - :peace
+      - :reddeer
+      :northwest_territories: 
+      - :territories
+      - :yellowknife
+      :new_brunswick: 
+      - :newbrunswick
+      :yukon_territory: 
+      - :whitehorse
+      :nova_scotia: 
+      - :halifax
+      :british_columbia: 
+      - :cariboo
+      - :comoxvalley
+      - :abbotsford
+      - :kamloops
+      - :kelowna
+      - :cranbrook
+      - :nanaimo
+      - :princegeorge
+      - :skeena
+      - :sunshine
+      - :vancouver
+      - :victoria
+      - :whistler
+    :name: Canada
+  :US: 
+    :states: 
+      :south_dakota: 
+      - :nesd
+      - :csd
+      - :rapidcity
+      - :siouxfalls
+      - :sd
+      :new_hampshire: 
+      - :nh
+      :minnesota: 
+      - :bemidji
+      - :brainerd
+      - :duluth
+      - :mankato
+      - :minneapolis
+      - :rmn
+      - :marshall
+      - :stcloud
+      :maine: 
+      - :maine
+      :wisconsin: 
+      - :appleton
+      - :eauclaire
+      - :greenbay
+      - :janesville
+      - :racine
+      - :lacrosse
+      - :madison
+      - :milwaukee
+      - :northernwi
+      - :sheboygan
+      - :wausau
+      :tennessee: 
+      - :chattanooga
+      - :clarksville
+      - :cookeville
+      - :jacksontn
+      - :knoxville
+      - :memphis
+      - :nashville
+      - :tricities
+      :kentucky: 
+      - :bgky
+      - :eastky
+      - :lexington
+      - :louisville
+      - :owensboro
+      - :westky
+      :illinois: 
+      - :bn
+      - :chambana
+      - :chicago
+      - :decatur
+      - :lasalle
+      - :mattoon
+      - :peoria
+      - :rockford
+      - :carbondale
+      - :springfieldil
+      - :quincy
+      :delaware: 
+      - :delaware
+      :nebraska: 
+      - :grandisland
+      - :lincoln
+      - :northplatte
+      - :omaha
+      - :scottsbluff
+      :maryland: 
+      - :annapolis
+      - :baltimore
+      - :easternshore
+      - :frederick
+      - :smd
+      - :westmd
+      :idaho: 
+      - :boise
+      - :eastidaho
+      - :lewiston
+      - :twinfalls
+      :connecticut: 
+      - :newlondon
+      - :hartford
+      - :newhaven
+      - :nwct
+      :arkansas: 
+      - :fayar
+      - :fortsmith
+      - :jonesboro
+      - :littlerock
+      - :texarkana
+      :wyoming: 
+      - :wyoming
+      :virginia: 
+      - :charlottesville
+      - :danville
+      - :fredericksburg
+      - :norfolk
+      - :harrisonburg
+      - :lynchburg
+      - :blacksburg
+      - :richmond
+      - :roanoke
+      - :swva
+      - :winchester
+      :new_mexico: 
+      - :albuquerque
+      - :clovis
+      - :farmington
+      - :lascruces
+      - :roswell
+      - :santafe
+      :nevada: 
+      - :elko
+      - :lasvegas
+      - :reno
+      :iowa: 
+      - :ames
+      - :cedarrapids
+      - :desmoines
+      - :dubuque
+      - :fortdodge
+      - :iowacity
+      - :masoncity
+      - :quadcities
+      - :siouxcity
+      - :ottumwa
+      - :waterloo
+      :indiana: 
+      - :bloomington
+      - :evansville
+      - :fortwayne
+      - :indianapolis
+      - :kokomo
+      - :tippecanoe
+      - :muncie
+      - :richmondin
+      - :southbend
+      - :terrehaute
+      :district_of_columbia: 
+      - :washingtondc
+      :california: 
+      - :bakersfield
+      - :chico
+      - :fresno
+      - :goldcountry
+      - :hanford
+      - :humboldt
+      - :imperial
+      - :inlandempire
+      - :losangeles
+      - :mendocino
+      - :merced
+      - :modesto
+      - :monterey
+      - :orangecounty
+      - :palmsprings
+      - :redding
+      - :sacramento
+      - :sandiego
+      - :sfbay
+      - :slo
+      - :santabarbara
+      - :santamaria
+      - :siskiyou
+      - :stockton
+      - :susanville
+      - :ventura
+      - :visalia
+      - :yubasutter
+      :rhode_island: 
+      - :providence
+      :oklahoma: 
+      - :lawton
+      - :enid
+      - :oklahomacity
+      - :stillwater
+      - :tulsa
+      :north_carolina: 
+      - :asheville
+      - :boone
+      - :charlotte
+      - :eastnc
+      - :fayetteville
+      - :greensboro
+      - :hickory
+      - :onslow
+      - :outerbanks
+      - :raleigh
+      - :wilmington
+      - :winstonsalem
+      :new_jersey: 
+      - :cnj
+      - :jerseyshore
+      - :newjersey
+      - :southjersey
+      :louisiana: 
+      - :batonrouge
+      - :cenla
+      - :houma
+      - :lafayette
+      - :lakecharles
+      - :monroe
+      - :neworleans
+      - :shreveport
+      :territories: 
+      - :micronesia
+      - :puertorico
+      - :virgin
+      :west_virginia: 
+      - :charlestonwv
+      - :martinsburg
+      - :huntington
+      - :morgantown
+      - :wheeling
+      - :parkersburg
+      - :swv
+      - :wv
+      :washington: 
+      - :bellingham
+      - :kpr
+      - :moseslake
+      - :olympic
+      - :pullman
+      - :seattle
+      - :skagit
+      - :spokane
+      - :wenatchee
+      - :yakima
+      :pennsylvania: 
+      - :altoona
+      - :chambersburg
+      - :erie
+      - :harrisburg
+      - :lancaster
+      - :allentown
+      - :meadville
+      - :philadelphia
+      - :pittsburgh
+      - :poconos
+      - :reading
+      - :scranton
+      - :pennstate
+      - :williamsport
+      - :york
+      :oregon: 
+      - :bend
+      - :corvallis
+      - :eastoregon
+      - :eugene
+      - :klamath
+      - :medford
+      - :oregoncoast
+      - :portland
+      - :roseburg
+      - :salem
+      :ohio: 
+      - :akroncanton
+      - :ashtabula
+      - :athensohio
+      - :chillicothe
+      - :cincinnati
+      - :cleveland
+      - :columbus
+      - :dayton
+      - :limaohio
+      - :mansfield
+      - :sandusky
+      - :toledo
+      - :tuscarawas
+      - :youngstown
+      - :zanesville
+      :massachusetts: 
+      - :boston
+      - :capecod
+      - :southcoast
+      - :westernmass
+      - :worcester
+      :kansas: 
+      - :lawrence
+      - :ksu
+      - :nwks
+      - :salina
+      - :seks
+      - :swks
+      - :topeka
+      - :wichita
+      :new_york: 
+      - :albany
+      - :binghamton
+      - :buffalo
+      - :catskills
+      - :chautauqua
+      - :elmira
+      - :fingerlakes
+      - :glensfalls
+      - :hudsonvalley
+      - :ithaca
+      - :longisland
+      - :newyork
+      - :oneonta
+      - :plattsburgh
+      - :potsdam
+      - :rochester
+      - :syracuse
+      - :twintiers
+      - :utica
+      - :watertown
+      :michigan: 
+      - :annarbor
+      - :battlecreek
+      - :centralmich
+      - :detroit
+      - :flint
+      - :grandrapids
+      - :holland
+      - :jxn
+      - :kalamazoo
+      - :lansing
+      - :monroemi
+      - :muskegon
+      - :nmi
+      - :porthuron
+      - :saginaw
+      - :swmi
+      - :thumb
+      - :up
+      :colorado: 
+      - :boulder
+      - :cosprings
+      - :denver
+      - :eastco
+      - :fortcollins
+      - :rockies
+      - :pueblo
+      - :westslope
+      :arizona: 
+      - :flagstaff
+      - :mohave
+      - :phoenix
+      - :prescott
+      - :showlow
+      - :sierravista
+      - :tucson
+      - :yuma
+      :mississippi: 
+      - :gulfport
+      - :hattiesburg
+      - :jackson
+      - :meridian
+      - :northmiss
+      - :natchez
+      :georgia: 
+      - :albanyga
+      - :athensga
+      - :atlanta
+      - :augusta
+      - :brunswick
+      - :columbusga
+      - :macon
+      - :nwga
+      - :savannah
+      - :statesboro
+      - :valdosta
+      :florida: 
+      - :daytona
+      - :keys
+      - :fortlauderdale
+      - :fortmyers
+      - :gainesville
+      - :cfl
+      - :jacksonville
+      - :lakeland
+      - :lakecity
+      - :ocala
+      - :okaloosa
+      - :orlando
+      - :panamacity
+      - :pensacola
+      - :sarasota
+      - :miami
+      - :spacecoast
+      - :staugustine
+      - :tallahassee
+      - :tampa
+      - :treasure
+      - :westpalmbeach
+      :alaska: 
+      - :anchorage
+      - :fairbanks
+      - :kenai
+      - :juneau
+      :texas: 
+      - :abilene
+      - :amarillo
+      - :austin
+      - :beaumont
+      - :brownsville
+      - :collegestation
+      - :corpuschristi
+      - :dallas
+      - :nacogdoches
+      - :delrio
+      - :elpaso
+      - :galveston
+      - :houston
+      - :killeen
+      - :laredo
+      - :lubbock
+      - :mcallen
+      - :odessa
+      - :sanangelo
+      - :sanantonio
+      - :sanmarcos
+      - :bigbend
+      - :texoma
+      - :easttexas
+      - :victoriatx
+      - :waco
+      - :wichitafalls
+      :south_carolina: 
+      - :charleston
+      - :columbia
+      - :florencesc
+      - :greenville
+      - :hiltonhead
+      - :myrtlebeach
+      :north_dakota: 
+      - :bismarck
+      - :fargo
+      - :grandforks
+      - :nd
+      :montana: 
+      - :billings
+      - :bozeman
+      - :butte
+      - :greatfalls
+      - :helena
+      - :kalispell
+      - :missoula
+      - :montana
+      :utah: 
+      - :logan
+      - :ogden
+      - :provo
+      - :saltlakecity
+      - :stgeorge
+      :hawaii: 
+      - :honolulu
+      :alabama: 
+      - :auburn
+      - :bham
+      - :dothan
+      - :shoals
+      - :gadsden
+      - :huntsville
+      - :mobile
+      - :montgomery
+      - :tuscaloosa
+      :vermont: 
+      - :burlington
+      :missouri: 
+      - :columbiamo
+      - :joplin
+      - :kansascity
+      - :kirksville
+      - :loz
+      - :semo
+      - :springfield
+      - :stjoseph
+      - :stlouis
+    :name: US
+  :LATAM: 
+    :states: 
+      :argentina: 
+      - :buenosaires
+      :costa_rica: 
+      - :costarica
+      :panama: 
+      - :panama
+      :el_salvador: 
+      - :elsalvador
+      :venezuela: 
+      - :caracas
+      :peru: 
+      - :lima
+      :bolivia: 
+      - :lapaz
+      :dominican_republic: 
+      - :santodomingo
+      :guatemala: 
+      - :guatemala
+      :chile: 
+      - :santiago
+      :virgin_islands_us: 
+      - :virgin
+      :puerto_rico: 
+      - :puertorico
+      :mexico: 
+      - :acapulco
+      - :bajasur
+      - :chihuahua
+      - :juarez
+      - :guadalajara
+      - :guanajuato
+      - :hermosillo
+      - :mazatlan
+      - :mexicocity
+      - :monterrey
+      - :oaxaca
+      - :puebla
+      - :pv
+      - :tijuana
+      - :veracruz
+      - :yucatan
+      :brazil: 
+      - :belohorizonte
+      - :brasilia
+      - :curitiba
+      - :fortaleza
+      - :portoalegre
+      - :recife
+      - :rio
+      - :salvador
+      - :saopaulo
+      :nicaragua: 
+      - :managua
+      :ecuador: 
+      - :quito
+      :caribbean: 
+      - :caribbean
+      :uruguay: 
+      - :montevideo
+      :colombia: 
+      - :colombia
+    :name: Latin America and Caribbean
+  :AF: 
+    :states: 
+      :egypt: 
+      - :cairo
+      :kenya: 
+      - :kenya
+      :morocco: 
+      - :casablanca
+      :ethiopia: 
+      - :addisababa
+      :tunisia: 
+      - :tunis
+      :south_africa: 
+      - :capetown
+      - :durban
+      - :johannesburg
+      - :pretoria
+      :ghana: 
+      - :accra
+    :name: Africa
+  :ASIA: 
+    :states: 
+      :vietnam: 
+      - :vietnam
+      :kuwait: 
+      - :kuwait
+      :japan: 
+      - :fukuoka
+      - :hiroshima
+      - :nagoya
+      - :okinawa
+      - :osaka
+      - :sapporo
+      - :sendai
+      - :tokyo
+      :indonesia: 
+      - :jakarta
+      :bangladesh: 
+      - :bangladesh
+      :israel_and_palestine: 
+      - :haifa
+      - :jerusalem
+      - :telaviv
+      - :ramallah
+      :lebanon: 
+      - :beirut
+      :china: 
+      - :beijing
+      - :chengdu
+      - :chongqing
+      - :dalian
+      - :guangzhou
+      - :hangzhou
+      - :nanjing
+      - :shanghai
+      - :shenyang
+      - :shenzhen
+      - :wuhan
+      - :xian
+      :thailand: 
+      - :bangkok
+      :iran: 
+      - :tehran
+      :malaysia: 
+      - :malaysia
+      :hong_kong: 
+      - :hongkong
+      :united_arab_emirates: 
+      - :dubai
+      :korea: 
+      - :seoul
+      :micronesia: 
+      - :micronesia
+      :singapore: 
+      - :singapore
+      :pakistan: 
+      - :pakistan
+      :iraq: 
+      - :baghdad
+      :taiwan: 
+      - :taipei
+      :philippines: 
+      - :bacolod
+      - :naga
+      - :cdo
+      - :cebu
+      - :davaocity
+      - :iloilo
+      - :manila
+      - :pampanga
+      - :zamboanga
+      :india: 
+      - :ahmedabad
+      - :bangalore
+      - :bhubaneswar
+      - :chandigarh
+      - :chennai
+      - :delhi
+      - :goa
+      - :hyderabad
+      - :indore
+      - :jaipur
+      - :kerala
+      - :kolkata
+      - :lucknow
+      - :mumbai
+      - :pune
+      - :surat
+    :name: Asia, Pacific and Middle East
