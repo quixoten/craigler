@@ -2,6 +2,12 @@ require 'rubygems'
 require 'rake'
 require 'yaml'
 
+class Symbol
+  def <=>(other)
+    self.to_s <=> other.to_s
+  end
+end
+
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
@@ -50,14 +56,14 @@ rescue LoadError
   end
 end
 
+map = {}
 begin
-  desc "Create a YAML map of craigslist URLs"
   require 'hpricot'
   require 'open-uri'
   task :map do
-    map = {}
     continents = map[:continents] = {}
     urls = map[:urls] = {}
+    categories = map[:categories] = {}
 
     doc = Hpricot(open('http://www.craigslist.org/about/sites'))
     (doc/'div.colmask').each do |elem|
@@ -89,8 +95,14 @@ begin
       end
     end
 
-    open('map.yaml', 'w') do |f|
-      YAML::dump(map, f)
+    doc = Hpricot(open('http://provo.craigslist.org/sss/'))
+    (doc/'#catAbb option').each do |elem|
+      value = elem['value']
+
+      if value.length > 0
+        key = value.strip.to_sym
+        category = categories[key] = elem.inner_text.strip
+      end
     end
   end
 rescue LoadError
@@ -99,5 +111,31 @@ rescue LoadError
   end
 end
 
-task :build => :map
+begin
+  desc "Compile erb templates"
+  require 'erubis'
+  task :compile => :map do
+    open('src/craigler.erb', 'r') do |f|
+      rb = Erubis::Eruby.new(f.read)
+      open('lib/craigler.rb', 'w') do |f|
+        f.write(rb.result(map))
+      end
+    end
+
+    map[:continents].each do |k, v|
+      open('src/continent.erb', 'r') do |f|
+        rb = Erubis::Eruby.new(f.read)
+        open("lib/craigler/#{k.to_s.downcase}.rb", 'w') do |f|
+          f.write(rb.result({:key => k}.merge(v)))
+        end
+      end
+    end
+  end
+rescue LoadError
+  task :compile do
+    abort "Erubis is not available. Install it with: sudo gem install erubis"
+  end
+end
+
+task :build => :compile
 task :default => :test

@@ -1,0 +1,17 @@
+require 'open-uri'
+require 'hpricot'
+
+require 'craigler/search'
+
+module Craigler
+  class CraiglerError < StandardError; end
+  class InvalidCategory < CraiglerError; end
+  class InvalidSearchTerm < CraiglerError; end
+  class InvalidLocation < CraiglerError; end
+
+  RESULTS_PER_PAGE = 25
+
+  CATEGORIES = { <%= categories.sort.map {|k, v| ":#{k} => '#{v}'"}.join("\n               , ") %>
+
+  URLS = { <%= urls.sort.map {|k, v| ":#{k} => '#{v}'"}.join("\n         , ") %>
+end
