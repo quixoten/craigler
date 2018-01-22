@@ -17,9 +17,9 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency "hpricot", "~> 0.8"
-  gem.add_development_dependency "rake", "~> 0.9.2"
-  gem.add_development_dependency "shoulda", "~> 3.3.1"
-  gem.add_development_dependency "minitest", "~> 4.1.0"
-  gem.add_development_dependency "yard", "~> 0.7"
+  gem.add_development_dependency "rake"
+  gem.add_development_dependency "shoulda"
+  gem.add_development_dependency "minitest"
+  gem.add_development_dependency "yard"
 end
 
