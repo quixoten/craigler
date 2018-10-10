@@ -851,9 +851,7 @@ module Craigler
     :durban => ["http://durban.craigslist.co.za/"],
     :johannesburg => ["http://johannesburg.craigslist.co.za/"],
     :pretoria => ["http://pretoria.craigslist.co.za/"],
-    :tunisia => ["http://tunis.craigslist.org/"],
-    :cl_jobs => ["http://www.craigslist.org/"]
-
+    :tunisia => ["http://tunis.craigslist.org/"]
 }
 
   # @private
