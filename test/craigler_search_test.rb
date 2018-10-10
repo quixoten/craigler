@@ -70,7 +70,7 @@ class CraiglerSearchTest < Test::Unit::TestCase
 
   context "search on new locations" do
     
-    should "get not erros" do
+    should "get no errors" do
       assert_nothing_raised() do
         Craigler::Search.new('basketball', in: :rome)
       end
