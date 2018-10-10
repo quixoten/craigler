@@ -896,5 +896,5 @@ module Craigler
     :personals => 'ppp',
     :resume => 'res',
     :services_offered => 'bbb'
-}
+  }
 end
