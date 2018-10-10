@@ -67,4 +67,23 @@ class CraiglerSearchTest < Test::Unit::TestCase
       assert(results.inject(true) {|t,r| t && r.is_a?(Hash)})
     end
   end
+
+  context "search on new locations" do
+    
+    should "get not erros" do
+      assert_nothing_raised() do
+        Craigler::Search.new('basketball', in: :rome)
+      end
+      assert_nothing_raised() do
+        Craigler::Search.new('shoes', in: :bulgaria)
+      end
+      assert_nothing_raised() do
+        Craigler::Search.new('hat', in: :brasilia)
+      end
+      assert_nothing_raised() do
+        Craigler::Search.new('rubber duck', in: :egypt)
+      end
+    end
+  end
+
 end
