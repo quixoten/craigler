@@ -122,8 +122,6 @@ module Craigler
     :hartford => ['http://hartford.craigslist.org/'],
     :newhaven => ['http://newhaven.craigslist.org/'],
     :nwct => ['http://nwct.craigslist.org/'],
-    # Delaware
-    :delaware => ['http://delaware.craigslist.org/'],
     # Dc
     :washingtondc => ['http://washingtondc.craigslist.org/'],
     # Florida
@@ -149,7 +147,6 @@ module Craigler
     :atlanta => ['http://atlanta.craigslist.org/'],
     :augusta => ['http://augusta.craigslist.org/'],
     :brunswick => ['http://brunswick.craigslist.org/'],
-    :columbusga => ['http://columbusga.craigslist.org/'],
     :macon => ['http://macon.craigslist.org/'],
     :savannah => ['http://savannah.craigslist.org/'],
     :valdosta => ['http://valdosta.craigslist.org/'],
@@ -189,7 +186,6 @@ module Craigler
     :dubuque => ['http://dubuque.craigslist.org/'],
     :iowacity => ['http://iowacity.craigslist.org/'],
     :omaha => ['http://omaha.craigslist.org/'],
-    :quadcities => ['http://quadcities.craigslist.org/'],
     :siouxcity => ['http://siouxcity.craigslist.org/'],
     :waterloo => ['http://waterloo.craigslist.org/'],
     # Kansas
@@ -212,8 +208,6 @@ module Craigler
     :monroe => ['http://monroe.craigslist.org/'],
     :neworleans => ['http://neworleans.craigslist.org/'],
     :shreveport => ['http://shreveport.craigslist.org/'],
-    # Maine
-    :maine => ['http://maine.craigslist.org/'],
     # Maryland
     :annapolis => ['http://annapolis.craigslist.org/'],
     :baltimore => ['http://baltimore.craigslist.org/'],
@@ -239,7 +233,6 @@ module Craigler
     :nmi => ['http://nmi.craigslist.org/'],
     :porthuron => ['http://porthuron.craigslist.org/'],
     :saginaw => ['http://saginaw.craigslist.org/'],
-    :southbend => ['http://southbend.craigslist.org/'],
     :swmi => ['http://swmi.craigslist.org/'],
     :up => ['http://up.craigslist.org/'],
     # Minnesota
@@ -253,25 +246,17 @@ module Craigler
     :gulfport => ['http://gulfport.craigslist.org/'],
     :hattiesburg => ['http://hattiesburg.craigslist.org/'],
     :jackson => ['http://jackson.craigslist.org/'],
-    :memphis => ['http://memphis.craigslist.org/'],
     :northmiss => ['http://northmiss.craigslist.org/'],
     # Missouri
     :columbiamo => ['http://columbiamo.craigslist.org/'],
     :joplin => ['http://joplin.craigslist.org/'],
-    :kansascity => ['http://kansascity.craigslist.org/'],
     :semo => ['http://semo.craigslist.org/'],
     :springfield => ['http://springfield.craigslist.org/'],
-    :stlouis => ['http://stlouis.craigslist.org/'],
-    # Montana
-    :montana => ['http://montana.craigslist.org/'],
     # Nebraska
     :grandisland => ['http://grandisland.craigslist.org/'],
     :lincoln => ['http://lincoln.craigslist.org/'],
-    :omaha => ['http://omaha.craigslist.org/'],
-    :siouxcity => ['http://siouxcity.craigslist.org/'],
     # Nevada
     :lasvegas => ['http://lasvegas.craigslist.org/'],
-    :reno => ['http://reno.craigslist.org/'],
     # N hampshire
     :nh => ['http://nh.craigslist.org/'],
     # New jersey
@@ -314,16 +299,13 @@ module Craigler
     :wilmington => ['http://wilmington.craigslist.org/'],
     :winstonsalem => ['http://winstonsalem.craigslist.org/'],
     # North dakota
-    :fargo => ['http://fargo.craigslist.org/'],
     :nd => ['http://nd.craigslist.org/'],
     # Ohio
     :akroncanton => ['http://akroncanton.craigslist.org/'],
     :athensohio => ['http://athensohio.craigslist.org/'],
-    :cincinnati => ['http://cincinnati.craigslist.org/'],
     :cleveland => ['http://cleveland.craigslist.org/'],
     :columbus => ['http://columbus.craigslist.org/'],
     :dayton => ['http://dayton.craigslist.org/'],
-    :huntington => ['http://huntington.craigslist.org/'],
     :limaohio => ['http://limaohio.craigslist.org/'],
     :mansfield => ['http://mansfield.craigslist.org/'],
     :parkersburg => ['http://parkersburg.craigslist.org/'],
@@ -332,7 +314,6 @@ module Craigler
     :wheeling => ['http://wheeling.craigslist.org/'],
     :youngstown => ['http://youngstown.craigslist.org/'],
     # Oklahoma
-    :fortsmith => ['http://fortsmith.craigslist.org/'],
     :lawton => ['http://lawton.craigslist.org/'],
     :oklahomacity => ['http://oklahomacity.craigslist.org/'],
     :stillwater => ['http://stillwater.craigslist.org/'],
@@ -377,7 +358,6 @@ module Craigler
     :clarksville => ['http://clarksville.craigslist.org/'],
     :jacksontn => ['http://jacksontn.craigslist.org/'],
     :knoxville => ['http://knoxville.craigslist.org/'],
-    :memphis => ['http://memphis.craigslist.org/'],
     :nashville => ['http://nashville.craigslist.org/'],
     :tricities => ['http://tricities.craigslist.org/'],
     # Texas
@@ -399,7 +379,6 @@ module Craigler
     :odessa => ['http://odessa.craigslist.org/'],
     :sanantonio => ['http://sanantonio.craigslist.org/'],
     :sanmarcos => ['http://sanmarcos.craigslist.org/'],
-    :texarkana => ['http://texarkana.craigslist.org/'],
     :easttexas => ['http://easttexas.craigslist.org/'],
     :victoriatx => ['http://victoriatx.craigslist.org/'],
     :waco => ['http://waco.craigslist.org/'],
@@ -416,7 +395,6 @@ module Craigler
     :blacksburg => ['http://blacksburg.craigslist.org/'],
     :charlottesville => ['http://charlottesville.craigslist.org/'],
     :danville => ['http://danville.craigslist.org/'],
-    :easternshore => ['http://easternshore.craigslist.org/'],
     :fredericksburg => ['http://fredericksburg.craigslist.org/'],
     :norfolk => ['http://norfolk.craigslist.org/'],
     :harrisonburg => ['http://harrisonburg.craigslist.org/'],
@@ -427,23 +405,17 @@ module Craigler
     :bellingham => ['http://bellingham.craigslist.org/'],
     :kpr => ['http://kpr.craigslist.org/'],
     :olympic => ['http://olympic.craigslist.org/'],
-    :pullman => ['http://pullman.craigslist.org/'],
     :seattle => ['http://seattle.craigslist.org/'],
     :skagit => ['http://skagit.craigslist.org/'],
-    :spokane => ['http://spokane.craigslist.org/'],
     :wenatchee => ['http://wenatchee.craigslist.org/'],
     :yakima => ['http://yakima.craigslist.org/'],
     # West virginia
     :charlestonwv => ['http://charlestonwv.craigslist.org/'],
-    :huntington => ['http://huntington.craigslist.org/'],
     :martinsburg => ['http://martinsburg.craigslist.org/'],
     :morgantown => ['http://morgantown.craigslist.org/'],
-    :parkersburg => ['http://parkersburg.craigslist.org/'],
     :wv => ['http://wv.craigslist.org/'],
-    :wheeling => ['http://wheeling.craigslist.org/'],
     # Wisconsin
     :appleton => ['http://appleton.craigslist.org/'],
-    :duluth => ['http://duluth.craigslist.org/'],
     :eauclaire => ['http://eauclaire.craigslist.org/'],
     :greenbay => ['http://greenbay.craigslist.org/'],
     :janesville => ['http://janesville.craigslist.org/'],
@@ -469,7 +441,6 @@ module Craigler
     :eastern_co => ["http://eastco.craigslist.org/"],
     :fort_lauderdale => ["http://fortlauderdale.craigslist.org/"],
     :heartland_florida => ["http://cfl.craigslist.org/"],
-    :jacksonville => ["http://onslow.craigslist.org/"],
     :north_central_fl => ["http://lakecity.craigslist.org/"],
     :okaloosa_walton => ["http://okaloosa.craigslist.org/"],
     :northwest_ga => ["http://nwga.craigslist.org/"],
@@ -490,7 +461,6 @@ module Craigler
     :owensboro => ["http://owensboro.craigslist.org/"],
     :central_louisiana => ["http://cenla.craigslist.org/"],
     :houma => ["http://houma.craigslist.org/"],
-    :monroe => ["http://monroemi.craigslist.org/"],
     :frederick => ["http://frederick.craigslist.org/"],
     :battle_creek => ["http://battlecreek.craigslist.org/"],
     :holland => ["http://holland.craigslist.org/"],
@@ -543,7 +513,6 @@ module Craigler
     :southwest_tx => ["http://bigbend.craigslist.org/"],
     :texoma => ["http://texoma.craigslist.org/"],
     :victoria => ["http://victoria.craigslist.ca/"],
-    :vermont => ["http://vermont.craigslist.org/"],
     :southwest_va => ["http://swva.craigslist.org/"],
     :winchester => ["http://winchester.craigslist.org/"],
     :moses_lake => ["http://moseslake.craigslist.org/"],
@@ -588,10 +557,8 @@ module Craigler
     :cornwall => ["http://cornwall.craigslist.ca/"],
     :guelph => ["http://guelph.craigslist.ca/"],
     :hamilton => ["http://hamilton.craigslist.ca/"],
-    :burlington => ["http://hamilton.craigslist.ca/"],
     :kingston => ["http://kingston.craigslist.ca/"],
     :kitchener => ["http://kitchener.craigslist.ca/"],
-    :waterloo => ["http://kitchener.craigslist.ca/"],
     :cambridge => ["http://kitchener.craigslist.ca/"],
     :london => ["http://london.craigslist.co.uk/"],
     :niagara_region => ["http://niagara.craigslist.ca/"],
